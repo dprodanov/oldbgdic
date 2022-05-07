@@ -1,2 +1,2 @@
 # oldbgdic
- spell checker Olg BG
+ Hunspell dictionary for Olg Bulgarian
