@@ -1,0 +1,37 @@
+bul:Bulgarian:Old Bulgarian
+S0: 1st declination: ср.р. -о
+S1: 1st declination: ср.р. -ѥ
+S2: 1st declination: ср.р. -е
+G0: 1st declination: м.р. -ъ: -нкъ, -ьникъ, -ъкъ, -[оеъ]тъ,  -ѣ[аꙗ]нинъ
+S3: double: G0
+G1: 1st declination:  м.р. -[гкх]ъ
+G2: 1st declination:  м.р. -арь, -[и]тель,
+S4: double: G2 , G4, T2
+G4: 1st declination:  м.р.  -ьць, -зь, - жь, -ищь
+G3: 1st declination:  м.р. -й
+Z0: 2nd declination: ж.р. -ина, -[ое]та, -ьда, -тва, -оба, -ова, -ьба
+Z1: 2nd declination: ж.р. -ица, -ьница
+Z3: 2nd declination: ж.р. -ꙗ
+Z4: 2nd declination: ж.р. -ѧ
+S5: double: Z0
+G5: 3rd declination:  -ость, -ль, -сль, -ѣль
+G5: 3rd declination:  -ть,  -нь, -снь, -знь
+G7: 4th declination: м.р. -ъ
+NT: 5th declination: -нт-
+NS: 5th declination: о/-с-
+T1: 5th declination: ж.р. в/ -ꙑ
+T2: 5th declination:  ж.р. -ь
+T3: 5th declination: м.р., ср.р. и/ -ь
+T4: 5th declination: ср.р. -ѧ
+T5: 5th declination: ж.р. мати, дощи
+V1: 1st, 2nd conjugation
+V3: 3rd conjugation
+V4: 4th conjugation
+V5: 5th conjugation
+V6: past imperfect
+V7: past 2nd s-aorist -съ
+VA: past 1st s-aorist -съ
+V8: past aorist 1 -гъ, -дъ
+V9: past aorist 2 -хъ
+VB: past paticiple
+VC: present active participle

@@ -218,26 +218,26 @@ SFX S4  ь           ѥма      [н]ь       is:double  Д,Т
 
 
 # същ. спряжение на -тель основа м. р -  учитель
-# -арь, -тель, -итель, -ишть
-SFX G2 Y  14	   # 1					 И,В
-SFX G2  ь           ѣ          [л]ь       is:singular  Р
-SFX G2  ь           ꙗ          [нр]ь       is:singular  Р
-SFX G2  ь           ю          [рлн]ь       is:singular  Д,З
+# -арь, -тель, -итель
+SFX G2 Y  14	   # 1					 И
+SFX G2  ь           ѣ          [рл]ь       is:singular  Р, В
+SFX G2  ь           ꙗ          [н]ь       is:singular  Р, В
+SFX G2  ь           ю          ь       is:singular  Д,З
 SFX G2  ь           емь       [рл]ь       is:singular  Т
 SFX G2  ь           ѥмь      [н]ь       is:singular  Т
-SFX G2  ь           и           [рлн]ь       is:singular  М
-SFX G2  ь           и          [лн]ь      is:plural   И, Т, З
-SFX G2  ь           е          [р]ь      is:plural   И, З
+SFX G2  ь           и           ь       is:singular  М
+SFX G2  ь           и          [н]ь      is:plural   И, Т, З
+SFX G2  ь           е          [рл]ь      is:plural   И, З
 SFX G2  ь           емъ      [рл]ь      is:plural  Д
 SFX G2  ь           ѥмъ     [н]ь      is:plural  Д
-SFX G2  ь           ꙑ          [р]ь      is:plural Т 
-SFX G2  ь           ѧ          [рлн]ь      is:plural  В
+SFX G2  ь           ѧ          ь      is:plural  В
+SFX G2  ь           ꙑ         [лр]ь      is:plural Т 
 SFX G2  ь           ихъ      [лн]ь      is:plural  М
 SFX G2  ь           ехъ      [р]ь      is:plural  М
 
-# същ. спряжение на мека основа м. р -  отьць, мѫжь
+# същ. спряжение на мека основа м. р -  отьць, мѫжь, господь
 # -ьць, -зь, - жь, -ищь
-SFX G4 Y  10	   #1					 И,В
+SFX G4 Y  13	   #1					 И,В
 SFX G4  ь           а          ь       is:singular  Р
 SFX G4  ь           у          ь       is:singular  Д
 SFX G4  ь           емь      ь       is:singular  Т
@@ -245,9 +245,12 @@ SFX G4  ь           и          ь       is:singular  М
 SFX G4  ць         че        ць       is:singular  З
 SFX G4  ь           о          жь       is:singular  З
 SFX G4  ь           и          ь      is:plural   И, Т, З
-SFX G4  ь           ѥмъ     ь      is:plural  Д
-SFX G4  ь           ѧ          ь      is:plural  В
-SFX G4  ь           ихъ      ь      is:plural  М
+SFX G4  ь           ѥ         [^цжшщ]ь      is:plural И
+SFX G4  ь           ѥмъ     цжшщь      is:plural  Д
+SFX G4  ь           емъ     [^цжшщ]ь      is:plural  Д
+SFX G4  ь           ѧ          цжшщь      is:plural  В
+SFX G4  ь           ихъ      [цжшщ]ь      is:plural  М
+SFX G4  ь           ехъ      [^цжшщ]ь      is:plural  М
 
 
  # същ. спряжение на - основа м. р - край
@@ -269,7 +272,8 @@ SFX S5   а           у           а      is:double   Р, М
 SFX S5   а           ама       а      is:double   Д, Т
 
 # 2-ро склонение -а основи, ж.р и м.р 
-# същ. спряжение на -а основа жена -ина, -ота, -ета, -ьда, -тва, -оба, ова, -ьба
+# същ. спряжение на -а основа жена
+# -ина, -[рдлвн]ота, -[мбпф]ета, -[ь]да, -тва, -оба, -[рдлвн]ова, -[мбпф]ева, -ьба
 SFX Z0 Y 10      
 SFX Z0   а           ꙑ          а      is:singular   Р
 SFX Z0   а           ѣ           а      is:singular  Д,М is:double   И,З
@@ -354,21 +358,24 @@ SFX G5  ь           ѣми       ь      is:plural  Т
 SFX G5  ь           ѣхъ       ь      is:plural  М
 
 # същ. спряжение на - основа м. р -   нощь, пѫть
-# -ть,  -нь, -снь, -знь,
-SFX G6 Y  13	    #1					 И,В,З
+# -ть,  -дь,  -нь, -снь, -знь,
+SFX G6 Y  15	    #1					 И,В,З
 SFX G6  ь           и          ь       is:singular  Р, Д, М
-SFX G6  ь           ьѭ       [ндшщс]ь       is:singular  Т
-SFX G6  ь           иѭ	 [^ндшщс]ь
-SFX G6  ь           ьмь       [^ндшщс]ь       is:singular  Т
-SFX G6  ь           емь       [^ндшщс]ь       is:singular  Т
+SFX G6  ь           ьѭ       [ншщс]ь       is:singular  Т
+SFX G6  ь           иѭ	 [т]ь is:singular  Т
+SFX G6  ь           ьмь      [дт]ь       is:singular  Т
+SFX G6  ь           емь      [дт]ь       is:singular  Т
 SFX G6  ь           и          ь      is:double   И, В,З
 SFX G6  ь           ью        ь       is:double  Р, М
-SFX G6  ь           ьма      [ндтшщс]ь       is:double  Д,Т
-SFX G6  ь           ьѥ        [ндтшщс]ь      is:plural   И,  В, З
-SFX G6  ь           ьи         ь      is:plural  Р
-SFX G6  ь           ьмъ      [ндтшщс]ь is:plural  Д
-SFX G6  ь           ьми       [ндтшщс]ь      is:plural  Т
-SFX G6  ь           ьхъ       [ндтшщс]ь      is:plural  М
+SFX G6  ь           ьма      ь       is:double  Д,Т
+SFX G6  ь           ьѥ       [^ѧ][тд]ь      is:plural   И,  В, З
+SFX G6  ь           е          [ѧ]ть      is:plural   И,  В, З
+SFX G6  ь           ьи        [^ѧ][ншщтд]ь      is:plural  Р
+SFX G6  ь           ьмъ      ь      is:plural  Д
+SFX G6  ь           ьми      ь      is:plural  Т
+SFX G6  ь           ꙑ         ѧть      is:plural  Т
+SFX G6  ь           ьхъ      ь      is:plural  М
+
 
 
 # 4-о склонение:  м.р.
@@ -401,7 +408,7 @@ SFX NT  0           тьмъ    ѧ      is:plural  Д
 SFX NT  0           тꙑ       ѧ      is:plural  Т
 SFX NT  0           тьхъ     ѧ      is:plural  М
 
-# същ. спряжение на  цръквꙑ
+# ж.р. същ. спряжение на  цръквꙑ
 SFX T1 Y  12	    #1 И,З
 SFX T1  ꙑ          ъве        ꙑ        is:singular  Р,  М
 SFX T1  ꙑ          ъви        ꙑ        is:singular  Д 
@@ -416,7 +423,7 @@ SFX T1  ꙑ          ъвамъ    ꙑ       is:plural  Д
 SFX T1  ꙑ          ъвами    ꙑ       is:plural  Т
 SFX T1  ꙑ          ъвахъ     ꙑ       is:plural  М
 
-# същ. спряжение на  кръвь
+# ж.р. същ. спряжение на  кръвь
 SFX T2 Y  8	    #1 И,В, З
 SFX T2  ь           и        ь        is:singular  Р,  Д
 SFX T2  ь           ьѭ     ь        is:singular  Т
@@ -427,22 +434,24 @@ SFX T2  ь           ьмъ    ь       is:plural  Д
 SFX T2  ь           ьми    ь       is:plural  Т
 SFX T2  ь           ьхъ    ь       is:plural  М
 
-# същ. спряжение на  камень,
-SFX T3 Y  12	    #1 И,В
+# м.р., ср.р. същ. спряжение на  камень,
+SFX T3 Y  14	    #1 И,В
+SFX T3  ень         ꙑ        ь        is:singular
 SFX T3  ь            е        ь        is:singular  Р,  М
 SFX T3  ь            и        ь        is:singular  Д 
 SFX T3  ь            емь    ь        is:singular  Т
 SFX T3  ь            и        ь       is:double   И, В
 SFX T3  ь            у        ь       is:double   Р, М
 SFX T3  ь            ьма    ь       is:double   Д, Т
-SFX T3  ь            ѩ        ь       is:plural   И,З
+SFX T3  ь            ѩ       ень       is:plural   И,З
+SFX T3  ь            ѥ       ьнь       is:plural   И,З
 SFX T3  ь            ъ        ь       is:plural  Р
 SFX T3  ь            емъ    ь       is:plural  Д
 SFX T3  ь            и        ь       is:plural  В
 SFX T3  ь            ьми    ь       is:plural  Т
 SFX T3  ь            ехъ    ь       is:plural  М
 
-# същ. спряжение на  имѧ
+# ср.р.  същ. спряжение на  имѧ
 SFX T4 Y  11	    #1 И,В, З
 SFX T4  ѧ           ене        ѧ       is:singular  Р, М
 SFX T4  ѧ           ени        ѧ       is:singular  Д
@@ -456,7 +465,7 @@ SFX T4  ѧ           еньмъ    ѧ       is:plural  Д
 SFX T4  ѧ           енꙑ    	  ѧ       is:plural  Т
 SFX T4  ѧ           еньхъ    ѧ       is:plural  М
 
-# същ. спряжение на -ер основа р м.ж. р - мати
+# ж.р. същ. спряжение на -ер основа р м.ж. р - мати
 SFX T5 Y  13	    
 SFX T5  и           ере       и       is:singular  Р
 SFX T5  и           ери       и       is:singular  Д, М
@@ -472,7 +481,7 @@ SFX T5  и           емъ       и      is:plural  Д
 SFX T5  и           ерьми   и       is:plural  Т
 SFX T5  и           ерехъ    и      is:plural  М
 
-# същ. спряжение на - основа ес м.ж. р - небо
+# ср.р. същ. спряжение на - основа ес м.ж. р - небо
 SFX NS Y  11	    
 SFX NS  о           есе       о       is:singular  Р, В
 SFX NS  о           еси       о       is:singular  Д, М
@@ -604,17 +613,17 @@ SFX  V1 етъ        ѫтъ    [^чж]етъ        is:plural
 SFX  V1 четъ      кѫтъ    [ч]етъ       is:singular
 SFX  V1 жетъ     гѫтъ    [ж]етъ       is:singular
 
-# 3 спряжение, сег време - ѥ
+# 3 спряжение, сег време - ѥ, е
 SFX  V3 Y 9
-SFX  V3 етъ       ѫ       [^ауилрѥ]етъ       is:singular
-SFX  V3 етъ       ѭ      [ауилрѥ]етъ        is:singular
+SFX  V3 етъ       ѫ       [^ауилр]етъ       is:singular
+SFX  V3 етъ       ѭ      [ауилр]етъ        is:singular
 SFX  V3 ѥтъ      ѭ      [ѥ]тъ                 is:singular
 SFX  V3 тъ         ши    [^сх]тъ              is:singular
-SFX  V3 ѥтъ      ѥмъ    ѥтъ                    is:plural 
+SFX  V3 тъ         мъ    тъ                    is:plural 
 SFX  V3 тъ         те       .                       is:plural 
 SFX  V3 етъ       ѭтъ   [ауилр]етъ           is:plural 
 SFX  V3 ѥтъ      ѭтъ   [ѥ]тъ                  is:plural 
-SFX  V3 етъ       ѫтъ    [^ауилрѥ]етъ        is:plural 
+SFX  V3 етъ       ѫтъ    [^ауилр]етъ        is:plural 
 
 # 4 спряжение, сег. време - и
 SFX  V4 Y 16
@@ -638,14 +647,14 @@ SFX  V4 итъ      ѧтъ    .      is:plural
 # 5 спряжение, сег време
 SFX  V5 Y 9
 SFX  V5 тъ       мь     [^сх]тъ      is:singular
-SFX  V5 стъ     смь     стъ                   is:singular
-SFX  V5 стъ     си      стъ                   is:singular
-SFX  V5 тъ       ши    [^сх]тъ              is:singular
-SFX  V5 стъ     мъ     стъ                  is:plural 
+SFX  V5 стъ     смь     стъ          is:singular
+SFX  V5 стъ     си       стъ          is:singular
+SFX  V5 тъ       ши    [^сх]тъ       is:singular
+SFX  V5 стъ     мъ     стъ            is:plural 
 SFX  V5 тъ       мъ     [^сх]тъ      is:plural 
-SFX  V5 тъ       те      .       is:plural 
-SFX  V5 атъ     ѫтъ    атъ       is:plural 
-SFX  V5 стъ     дѧтъ  [^ѥе]стъ               is:plural 
+SFX  V5 тъ       те      .               is:plural 
+SFX  V5 атъ     ѫтъ    атъ           is:plural 
+SFX  V5 стъ     дѧтъ  [^ѥе]стъ    is:plural 
 
 # мин. несв. време
 SFX  V6 Y 7
