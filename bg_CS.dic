@@ -1,4 +1,4 @@
-﻿819
+﻿857
 ꙃело
 ꙗ/ZE	po:pronoun
 ꙗвѣ
@@ -48,8 +48,8 @@
 бой/G3	po:noun
 боль/G5	po:noun
 боретъ/V3A1	po:verb
-боязнь/G6	po:noun
-брань/G6	po:noun
+боязнь/G6S6	po:noun
+брань/G6S6	po:noun
 брати/V6	po:verb
 брашьно/S0S3	po:noun
 бу/KKW3	po:stem
@@ -82,7 +82,7 @@
 виѥтъ/V3A1	po:verb
 владꙑчица/Z1S5	po:noun
 властелинъ/G0	po:noun
-власть/G6	po:noun
+власть/G6S6	po:noun
 влачити/V6	po:verbinf
 влачитъ/V4A1	po:verb
 влачитъ/V4A1	po:verb
@@ -112,8 +112,10 @@
 врьжетъ/V1A1	po:verb
 врьзетъ/SRV1A1	po:verb
 врѣменьно/SE
+врѣмѧ/T4	po:noun
 врѣсти/SRV6	po:verbinf
 врѣщти/SRV6	po:verbinf
+въ
 въврьгъ/V8	po:verb
 въжахъ/V9	po:verb
 въздвигнетъ/V1A1	po:noun
@@ -133,7 +135,7 @@
 вьсьде	po:adverb
 вьсѣго/ZT
 вѣдро/S0	po:noun
-вѣдь/G6	po:noun
+вѣдь/G6S6	po:noun
 вѣдѣти/V6	po:verbinf
 вѣдѫ/KKVC	po:adv
 вѣр/KKW5	po:stem
@@ -198,6 +200,7 @@
 двнгномъ/VB	po:adv
 деретъ/V1A1	po:verb
 десница/Z1S5	po:noun
+десѧть/G6S6	po:noun
 добре	po:adverb
 долу	po:adverb
 долѣ	po:adverb
@@ -233,26 +236,31 @@
 желаньѥ/S1	po:noun
 желѣꙁо/S0	po:noun
 желѣзо/S0	po:noun
+желѣтва/Z0S5	po:noun
 жена/Z0S5	po:noun
 женима/Z0S5	po:noun
 женитва/Z0S5	po:noun
 женити/V6	po:verbinf
 женитъ/V4A1	po:verb
+жестоцѣ	po:adverb
 жещи/V6	po:verbinf
 животъ/G0	po:noun
 жидетъ/V1A1	po:verb
 жидость/G5	po:noun
-жизнь/G6	po:noun
+жизнь/G6S6	po:noun
 жила/Z0S5	po:noun
 жилище/S2	po:noun
+жладьба/Z0S5	po:noun
 жрьетъ/V1A1	po:verb
 жрьтва/Z0S5	po:noun
+жрьтвьникъ/G0S3	po:noun
 жрѣбѧ/NT	po:noun
 жрѣло/S0	po:noun
 жрѣти/V6	po:verbinf
 жьдати/V6	po:verbinf
 жьметъ/V1A1	po:verb
 жьнетъ/V3A1	po:verb
+жѧжда/Z3	po:noun
 жѧло/S0	po:noun
 жѧти/V6	po:verb
 жѧти/V6	po:verbinf
@@ -264,7 +272,7 @@
 зажежетъ/V1A1	po:verb
 зажещи/V6	po:verb
 законьно/SE
-заповѣдь/G6	po:noun
+заповѣдь/G6S6	po:noun
 запрѣщаетъ/V3A1	po:verb
 запрѣщитъ/V4A1	po:verb
 звѣрь/G5	po:noun
@@ -290,6 +298,8 @@
 зной/G3	po:noun
 зоветъ/V1A1	po:verb
 зодиꙗ/Z3	po:noun
+зороваетъ/V3A1SR	po:verb
+зоровати/V6SR	po:verbinf
 зъвати/SQV6	po:verb
 зъвати/V6	po:verbinf
 зъветъ/SQV1A1	po:verb
@@ -301,7 +311,7 @@
 иго/S0	po:noun
 игр/KKW4	po:stem
 играетъ/V1A1	po:verb
-идетъ/V1A1	po:verb
+идетъ/V1A1SR	po:verb
 идъ/V8	po:verb
 изъ
 иматъ/V5A1	po:verb
@@ -310,7 +320,11 @@
 имѧ/T4	po:noun
 имѫ/KKVC	po:adv
 инъ/TT
+искати/V6SR	po:verbinf
+ити/V6SR	po:verbinf
+ищетъ/V1A1SR	po:verb
 каꙗти/V6	po:verb
+казанѥ/S1SR	po:noun
 камꙑкъ/G0	po:noun
 камара/Z0S5	po:noun
 камен/KKB2	po:stem
@@ -344,8 +358,10 @@
 коснетъ/V1A1	po:verb
 коснѫти/V6	po:verbinf
 коснѫхъ/V9	po:verb
-кость/G6	po:noun
+кость/G6S6	po:noun
 кошь/G2S4	po:noun
+крꙑваетъ/V3A1SR	po:verb
+крꙑвати/V6SR	po:verbinf
 крꙑти/V6	po:verb
 крꙑѥтъ/V3A1	po:verb
 крадетъ/V1A1	po:verb
@@ -365,7 +381,7 @@
 кѧжетъ/V3A1	po:verb
 кѧзати/V6	po:verb
 ладиꙗ/Z3	po:noun
-лакъть/G6	po:noun
+лакъть/G6S6	po:noun
 ланиꙗ/Z3	po:noun
 лани	po:adverb
 ледъ/G7	po:noun
@@ -383,7 +399,7 @@
 льгꙑнꙗ/Z3	po:noun
 любꙑ/T1	po:noun
 любитъ/V4A1	po:verb
-людь/G6	po:noun
+людь/G6S6	po:noun
 лѣпота/Z0S5	po:noun
 лѣто/S0	po:noun
 лѣтѣ	po:adverb
@@ -391,7 +407,7 @@
 лѧчетъ/V1A1	po:verb
 лѧшти/V6	po:verbinf
 мꙑ
-мꙑсль/G6	po:noun
+мꙑсль/G6S6	po:noun
 мꙑѥтъ/V3A1	po:verb
 маꙗти/V6	po:verb
 мажетъ/V3A1	po:verb
@@ -401,7 +417,7 @@
 манѫти/SRV6	po:verbinf
 мати/T5	po:noun
 маѥтъ/V3A1	po:verb
-медвѣдь/G6	po:noun
+медвѣдь/G6S6	po:noun
 межда/Z1S5	po:noun
 между
 мелетъ/V3A1	po:verb
@@ -420,9 +436,11 @@
 млъкнѫти/V6	po:verbinf
 млъниѧ/Z4	po:noun
 млѣти/V6	po:verb
+моꙗ/Z3
 могъ/V8	po:verb
 можетъ/V1A1	po:verb
 мои/ZP
+мой/G3
 мой/ZP
 молитв/KKW5	po:stem
 молитва/Z0S5	po:noun
@@ -430,7 +448,8 @@
 молѧ/VC	po:adv
 морѥ/S1
 мощи/V6	po:verbinf
-мощь/G6	po:noun
+мощь/G6S6	po:noun
+моѥ/S1
 моѥго/ZT
 мрьетъ/V1A1	po:verb
 мрѣжа/Z1S5	po:noun
@@ -444,7 +463,7 @@
 мьнитъ/V4A1	po:verb
 мьнѣ
 мьсть/G5	po:noun
-мѣдь/G6
+мѣдь/G6S6
 мѣнетъ/SRV1A1	po:verb
 мѣнѫти/SRV6	po:verbinf
 мѧ
@@ -460,6 +479,7 @@
 нꙑ
 на
 навꙑкнетъ/V1A1	po:verb
+напоихъ/V9	po:verbaor
 нариц/KKW4	po:stem
 наслѣд/KKW5	po:stem
 насъ/LT
@@ -483,7 +503,7 @@
 ножь/G2S4	po:noun
 носити/V6	po:verbinf
 носитъ/V4A1	po:verb
-нощь/G6	po:noun
+нощь/G6S6	po:noun
 нужда/Z1S5	po:noun
 нѣмъ/VB	po:adv
 нѣстъ/V5	po:verb
@@ -514,19 +534,32 @@
 отъ
 отъвѣщ/KKW4	po:stem
 отьць/G2S4	po:noun
+оцьтъ/G0S3	po:noun
 падетъ/V1A1	po:verb
 падъ/V8	po:verb
+пара/Z0S5	po:noun
+паства/Z0S5	po:noun
 пасти/V6	po:verbinf
+пасха/Z0S5	po:noun
 перетъ/V1A1	po:verb
+печетъ/V1A1	po:verb
+пещера/Z0S5	po:noun
+пещи/V6	po:verbinf
+пиво/S0	po:noun
+пила/Z0S5	po:noun
+пира/Z0S5	po:noun
 писати/V6	po:verbinf
+пискъ/G0S3	po:noun
 пити/V6	po:verb
 пишетъ/V3A1	po:verb
 пища/Z1S5	po:noun
 пиѥтъ/V3A1	po:verb
 плакати/V6	po:verbinf
+пламень/T3	po:noun
 плачетъ/V3A1	po:verb
 плачь/G2S4	po:noun
 плелъ/VB	po:adj
+племѧ/T4	po:noun
 плинетъ/V1A1	po:verb
 плинѫти/V6	po:verbinf
 плодитъ/V4A1	po:verb
@@ -535,12 +568,17 @@
 плъзнетъ/V1A1	po:verb
 плъзнѫти/V6	po:verbinf
 плънитъ/V4A1	po:verb
-плъть/G6	po:noun
+плъть/G6S6	po:noun
 плѣсъ/VA	po:verb
 погибнетъ/V1A1	po:verb
 погибнѫти/V6	po:verbinf
 погребитель/G2S4	po:noun
 подав/KKW4	po:stem
+позоръ/G0S3	po:noun
+поимъ/G0S3	po:noun
+поитъ/V4A1	po:verb
+покровъ/G0S3	po:noun
+пола/Z0S5	po:noun
 польꙃа/Z1S5	po:noun
 польза/Z0S5	po:noun
 полѥ/S1	po:noun
@@ -570,11 +608,11 @@
 пьнетъ/V1A1	po:verb
 пьрати/V6	po:verbinf
 пѣнѧзь/G2S4	po:noun
-пѣснь/G6	po:noun
+пѣснь/G6S6	po:noun
 пѧсъ/VA	po:verbaor
 пѧти/V6	po:verbinf
 пѫто/S0S3	po:noun
-пѫть/G6	po:noun
+пѫть/G6S6	po:noun
 рꙑба/Z0S5	po:noun
 рꙑло/S0	po:noun
 рꙑсъ/G0	po:noun
@@ -635,6 +673,9 @@
 сквозѣ
 скврьньникъ/G0S3	po:noun
 сковрада/Z0S5	po:noun
+скотъ/G0S3	po:noun
+скрада/Z0S5	po:noun
+скръбь/T2S6	po:noun
 скръвитъ/V4A1	po:verb
 слꙑшати/V6	po:verb
 слꙑшитъ/V4A1	po:verb
@@ -679,6 +720,7 @@
 сьде	po:adverb
 сѣкнетъ/SUV1A1	po:verb
 сѣкнѫти/SUV6	po:verbinf
+сѣмѧ/T4	po:noun
 сѣсти/V6	po:verb
 сѣчетъ/V1A1	po:verb
 сѣѥтъ/V3A1	po:verb
@@ -729,7 +771,7 @@
 тъ/TT
 тъкати/V6	po:verbinf
 тьмьница/Z1S5	po:noun
-тьсть/G6	po:noun
+тьсть/G6S6	po:noun
 тѣхъ/V9	po:verb
 тѧгнетъ/V1A1	po:verb
 тѧгнѫти/SRV6	po:verbinf
@@ -790,6 +832,7 @@
 ѥгда	po:adverb
 ѥго/ZT
 ѥдинъ/TT
+ѥже	po:adverb
 ѥстъ/V5A2	po:verb
 ѥще	po:adverb
 ѧꙁꙑчьникъ/G1S3	po:noun
@@ -813,8 +856,3 @@
 ѫзъко	po:adverb
 ѫтрь	po:adverb
 ѭ
-врѣмѧ/T4	po:noun
-племѧ/T4	po:noun
-сѣмѧ/T4	po:noun
-пламень/T3	po:noun
-десѧть/G6	po:noun

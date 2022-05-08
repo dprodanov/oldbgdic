@@ -23,9 +23,9 @@ MAP	7
 MAP	еѣя				
 MAP	аъѫ				
 MAP	ъь				
-MAP	ийѥ				
+MAP	іийѥ				
 MAP	аяꙗ				
-MAP	еиѥ				
+MAP	еиіѥ				
 MAP	оу		
 
 REP 10
@@ -141,7 +141,7 @@ SFX S1  ѥ           и           ѥ      is:double   И, В, М
 SFX S1  ѥ           ю          ѥ      is:double   Р
 SFX S1  ѥ           ѥма      ѥ      is:double   Д, Т
 SFX S1  ѥ           ꙗ          ѥ      is:plural   И,В
-SFX S1  ѥ           ь           [ѥ][^ь]      is:plural  Р
+SFX S1  ѥ           ь           [^ь] [ѥ]     is:plural  Р
 SFX S1  ѥ           ѥмъ      ѥ      is:plural  Д
 SFX S1  ѥ           и           ѥ      is:plural  Т
 SFX S1  ѥ           ихъ       ѥ      is:plural  М
@@ -156,7 +156,7 @@ SFX S2  е           а          е      is:double   И, В, М
 SFX S2  е           у          е      is:double   Р
 SFX S2  е           eма      е      is:double   Д, Т
 SFX S2  е           а          е      is:plural   И,В
-SFX S2  е           ь         [е][^ь]      is:plural  Р
+SFX S2  е           ь         [^ь] [е]      is:plural  Р
 SFX S2  е           емъ     е      is:plural  Д
 SFX S2  е           и          е      is:plural  Т
 SFX S2  е           ихъ      е      is:plural  М
@@ -294,33 +294,44 @@ SFX Z1   га          ꙃе         [г]а        is:singular  Д, М is:double
 SFX Z1   ка          це         [к]а       is:singular   Д, М is:double  И, В 
 SFX Z1   ха          сѣ        [х]а       is:singular   Д, М is:double  И, В 
 SFX Z1   а            е          [^гкх]а       is:singular  Д, М is:double  И, В 
-SFX Z1   а            ѫ          а   is:singular   В
+SFX Z1   а            ѫ           а   is:singular   В
 SFX Z1   а            оѭ        а   is:singular   Т
-SFX Z1   а           ꙑ           а    is:plural  И, В
-SFX Z1   а           ъ            а    is:plural  Р
-SFX Z1   а            амъ       а   is:plural  Д
-SFX Z1   а            ами       а   is:plural  Т
+SFX Z1   а            ꙑ          а    is:plural  И, В
+SFX Z1   а            ъ           а    is:plural  Р
+SFX Z1   а            амъ      а   is:plural  Д
+SFX Z1   а            ами      а   is:plural  Т
 SFX Z1   а            ахъ       а   is:plural  М
 
 # мн ч. ыни
 # същ. спряжение на -а основа 
 # -ыии
-SFX Z3 Y  15	  
+SFX Z3 Y  26	  
 SFX Z3   ꙗ           ѩ          ꙗ      is:singular   Р
-SFX Z3   ꙗ           и           ꙗ      is:singular   Д, М
-SFX Z3   ꙗ           ѭ          ꙗ      is:singular   В
+SFX Z3   а            ѧ           а     is:singular   Р
+SFX Z3   ꙗ           и           .      is:singular   Д, М
+SFX Z3   ꙗ           ѭ         ꙗ      is:singular   В
+SFX Z3   а           ѫ          а      is:singular   В
 SFX Z3   ꙗ           ѥѭ       ꙗ      is:singular   Т  
+SFX Z3   а           еѭ        а      is:singular   Т  
 SFX Z3   ꙗ           ѥ          ꙗ      is:singular   З 
-SFX Z3   ꙗ           и          ꙗ      is:double   И, В
+SFX Z3   а           е           а      is:singular   З 
+SFX Z3   ꙗ           и           .      is:double   И, В
 SFX Z3   ꙗ           ю          ꙗ      is:double   Р, М, З
-SFX Z3   ꙗ           ꙗма     ꙗ      is:double   Д, Т
+SFX Z3   а            у           а      is:double   Р, М, З
+SFX Z3   ꙗ           ꙗма      ꙗ      is:double   Д, Т
+SFX Z3   а           ама       а      is:double   Д, Т
 SFX Z3   ꙗ           ѩ          [^аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
+SFX Z3   а            ѧ           а      is:plural  И, В, З
 SFX Z3   ꙗ           и          [аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
 SFX Z3   ꙗ           ь           [^аоуеиѣѫѧѩ]ꙗ      is:plural  Р
-SFX Z3   ꙗ           и           [аоуеиѣѫѧѩ]ꙗ       is:plural  Р
+SFX Z3   а           и           а      is:plural  Р
+SFX Z3   а            ь           а      is:plural  Р
 SFX Z3   ꙗ           ꙗмъ      ꙗ       is:plural  Д
+SFX Z3   а            амъ       а       is:plural  Д
 SFX Z3   ꙗ           ꙗми      ꙗ       is:plural  Т
+SFX Z3   а            ами       а       is:plural  Т
 SFX Z3   ꙗ           ꙗхъ       ꙗ       is:plural  М
+SFX Z3   а            ахъ       а       is:plural  М
 
 # същ. спряжение на -а основа   млъниѧ
 SFX Z4 Y  14    
@@ -359,15 +370,12 @@ SFX G5  ь           ѣхъ       ь      is:plural  М
 
 # същ. спряжение на - основа м. р -   нощь, пѫть
 # -ть,  -дь,  -нь, -снь, -знь,
-SFX G6 Y  15	    #1					 И,В,З
+SFX G6 Y  12	    #1					 И,В,З
 SFX G6  ь           и          ь       is:singular  Р, Д, М
 SFX G6  ь           ьѭ       [ншщс]ь       is:singular  Т
 SFX G6  ь           иѭ	 [т]ь is:singular  Т
 SFX G6  ь           ьмь      [дт]ь       is:singular  Т
 SFX G6  ь           емь      [дт]ь       is:singular  Т
-SFX G6  ь           и          ь      is:double   И, В,З
-SFX G6  ь           ью        ь       is:double  Р, М
-SFX G6  ь           ьма      ь       is:double  Д,Т
 SFX G6  ь           ьѥ       [^ѧ][тд]ь      is:plural   И,  В, З
 SFX G6  ь           е          [ѧ]ть      is:plural   И,  В, З
 SFX G6  ь           ьи        [^ѧ][ншщтд]ь      is:plural  Р
@@ -376,6 +384,11 @@ SFX G6  ь           ьми      ь      is:plural  Т
 SFX G6  ь           ꙑ         ѧть      is:plural  Т
 SFX G6  ь           ьхъ      ь      is:plural  М
 
+# двойно число - меки ж.р.
+SFX S6 Y 3
+SFX S6  ь           и          ь      is:double   И, В,З
+SFX S6  ь           ью        ь       is:double  Р, М
+SFX S6  ь           ьма      ь       is:double  Д,Т
 
 
 # 4-о склонение:  м.р.
@@ -425,7 +438,7 @@ SFX T1  ꙑ          ъвахъ     ꙑ       is:plural  М
 
 # ж.р. същ. спряжение на  кръвь
 SFX T2 Y  8	    #1 И,В, З
-SFX T2  ь           и        ь        is:singular  Р,  Д
+SFX T2  ь           и        ь        is:singular  Р,  Д is:double И
 SFX T2  ь           ьѭ     ь        is:singular  Т
 SFX T2  ь           е        ь        is:singular   М
 SFX T2  ь           и        ь       is:plural   И,В,З
@@ -578,7 +591,7 @@ SFX ZQ      ъ    ь        [с]ъ    is:singular   И, В, м.р
 SFX ZQ      ъ    и        [^с]ъ    is:singular   И, В, м.р
 SFX ZQ      ъ    ꙑ      [с]ъ     is:plural   И, ж.р.
 
-
+# притежателни местоимения
 SFX ZP Y 8
 SFX ZP      и    ꙗ    и 
 SFX ZP      и    ѥ    и 
