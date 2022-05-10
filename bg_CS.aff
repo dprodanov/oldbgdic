@@ -141,7 +141,7 @@ SFX S1  ѥ           и           ѥ      is:double   И, В, М
 SFX S1  ѥ           ю          ѥ      is:double   Р
 SFX S1  ѥ           ѥма      ѥ      is:double   Д, Т
 SFX S1  ѥ           ꙗ          ѥ      is:plural   И,В
-SFX S1  ѥ           ь           [^ь] [ѥ]     is:plural  Р
+SFX S1  ѥ           ь           [^ьо][ѥ]     is:plural  Р
 SFX S1  ѥ           ѥмъ      ѥ      is:plural  Д
 SFX S1  ѥ           и           ѥ      is:plural  Т
 SFX S1  ѥ           ихъ       ѥ      is:plural  М
@@ -156,7 +156,7 @@ SFX S2  е           а          е      is:double   И, В, М
 SFX S2  е           у          е      is:double   Р
 SFX S2  е           eма      е      is:double   Д, Т
 SFX S2  е           а          е      is:plural   И,В
-SFX S2  е           ь         [^ь] [е]      is:plural  Р
+SFX S2  е           ь         [^ь][е]      is:plural  Р
 SFX S2  е           емъ     е      is:plural  Д
 SFX S2  е           и          е      is:plural  Т
 SFX S2  е           ихъ      е      is:plural  М
@@ -513,15 +513,15 @@ SFX NS  о           есехъ    о      is:plural  М
 # местоимения
 #  мене, тебе, Р
 SFX MT Y 9
-SFX MT      ене   и         ене      is:singular   Д
-SFX MT      ене   ѧ         ене      is:singular   В
-SFX MT      е       ѣ         е          is:singular   Д, М
-SFX MT      ене   ъноѭ  ене      is:singular   Т
-SFX MT      ебе   ꙑ        [^с]ебе   is:singular   И
-SFX MT      ебе   и         ебе      is:singular   Р
-SFX MT      ебе   ѧ         ебе      is:singular   В
+SFX MT      ене   и         ене       is:singular   Д
+SFX MT      ене   ѧ         ене       is:singular   В
+SFX MT      е       ѣ        е           is:singular   Д, М
+SFX MT      ене   ъноѭ  ене       is:singular   Т
+SFX MT      ебе   ꙑ        [^с]ебе  is:singular   И
+SFX MT      ебе   и         ебе       is:singular   Р
+SFX MT      ебе   ѧ         ебе       is:singular   В
 SFX MT      ебе   обоѭ  ебе       is:singular   Т 
-SFX MT      ене   ꙑ        ене      is:plural   И
+SFX MT      ене   ꙑ        ене       is:plural   И
 
 # онъ 
 #  м. р  И, В
@@ -530,30 +530,30 @@ SFX TT      ъ     ого    ъ      is:singular   Р
 SFX TT      ъ     ому   ъ      is:singular   Д
 SFX TT      ъ     ѣмь   ъ      is:singular   Т
 SFX TT      ъ     омь   ъ      is:singular   М
-SFX TT      ъ     о        ъ      is:singular   И, В
-SFX TT      ъ     а        ъ      is:singular   И
+SFX TT      ъ     о       ъ      is:singular   И, В
+SFX TT      ъ     а       ъ      is:singular   И
 SFX TT      ъ     оѧ      ъ      is:singular   Р
 SFX TT      ъ     ои      ъ      is:singular   Д, М
-SFX TT      ъ     ѫ        ъ      is:singular   В
+SFX TT      ъ     ѫ       ъ      is:singular   В
 SFX TT      ъ     оѭ     ъ      is:singular    Т
-SFX TT      ъ     а         ъ      is:double    И,В
-SFX TT      ъ     ою     ъ      is:double    Р,М
-SFX TT      ъ     ѣма   ъ      is:double    Д,Т
+SFX TT      ъ     а        ъ      is:double    И,В
+SFX TT      ъ     ою      ъ      is:double    Р,М
+SFX TT      ъ     ѣма    ъ      is:double    Д,Т
 SFX TT      ъ     и        ъ      is:plural   И
 SFX TT      ъ     ѣхъ    ъ      is:plural   Р,М
-SFX TT      ъ     ѣмъ   ъ      is:plural   Д
+SFX TT      ъ     ѣмъ    ъ      is:plural   Д
 SFX TT      ъ     ꙑ       ъ      is:plural   В
-SFX TT      ъ     ѣми   ъ      is:plural   Т
+SFX TT      ъ     ѣми    ъ      is:plural   Т
 SFX TT      ъ     ꙑ       ъ     is:plural   И, В
 SFX TT      ъ     о        ъ      is:plural   И, В
 
 # насъ, васъ Р, М
 SFX LT Y 6
-SFX LT      съ   мъ      съ      is:singular   Д
+SFX LT      съ   мъ       съ      is:singular   Д
 SFX LT      асъ  ꙑ       асъ      is:singular   В
-SFX LT      съ   ми      съ     is:singular   Т
+SFX LT      съ   ми       съ     is:singular   Т
 SFX LT      съ    0        съ     is:singular   И
-SFX LT      съ    ю       съ      is:singular   Р, М
+SFX LT      съ    ю        съ      is:singular   Р, М
 SFX LT      съ    ма      съ      is:singular   Д, Т
 
 #  же
@@ -592,15 +592,10 @@ SFX ZQ      ъ    и        [^с]ъ    is:singular   И, В, м.р
 SFX ZQ      ъ    ꙑ      [с]ъ     is:plural   И, ж.р.
 
 # притежателни местоимения
-SFX ZP Y 8
-SFX ZP      и    ꙗ    и 
-SFX ZP      и    ѥ    и 
-SFX ZP      и    е     и
-SFX ZP      й    ꙗ    й 
-SFX ZP      й    ѥ    й 
-SFX ZP      й    е     й
-SFX ZP      ь    а     ь
-SFX ZP      ь    е     ь
+SFX ZP Y 2
+SFX ZP      и    ꙗ/Z3    . 
+SFX ZP      и    ѥ/S1    .
+ 
 
  # двойно число
 SFX  A1 Y 3
@@ -835,3 +830,19 @@ SFX VE  0          шамъ   .       is:plural  Д
 SFX VE  0          шами   .       is:plural  Т
 SFX VE  0          шахъ   .       is:plural  М
 SFX VE  0          шама   .       is:double   Д, Т
+
+# повелително наклонение
+SFX VF  Y  4
+SFX VF  и    ѣмъ  . is:plural 
+SFX VF  и    ѣте  . is:plural 
+SFX VF  и    ѣвѣ  . is:double 
+SFX VF  и    ѣта  . is:double 
+
+# повелително наклонение
+SFX VG  Y  5
+SFX VG  0    мъ . is:plural 
+SFX VG  0    те . is:plural 
+SFX VG  0    вѣ  . is:double 
+SFX VG  0    та  . is:double 
+SFX VG  ди  ждь ди  is:singular 
+
