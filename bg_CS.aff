@@ -99,30 +99,109 @@ SFX B1  0  ие/S0 .
 SFX B1  0  ьѥ/S1 [двчн]
 SFX B1  0  ство/S0  .
 
-SFX B2  Y 1
-SFX B2  0  ьѥ/S1 .
+
 
 
 # прилагателни твърди основи - ьнъ, ъкъ, ѣнъ, окъ, атъ, ивъ, овъ, евъ, инъ
-SFX B5  Y 3
-SFX B5  ъ  ъ/G0S3       ъ  is:m
-SFX B5  ъ  а/Z0S5        ъ  is:f
-SFX B5  ъ  о/S0            ъ  is:n
 
+SFX B5  Y 6
+SFX B5  ъ  ъ/G0S3       ъ  is:m
+SFX B5  ъ  ъ/B2           ъ  is:m
+SFX B5  ъ  а/Z0S5        ъ  is:f
+SFX B5  ъ  а/B3            ъ  is:f
+SFX B5  ъ  о/S0            ъ  is:n
+SFX B5  ъ  о/B6            ъ  is:n
+
+# енклитични елементи и, ꙗ, ѥ - м.р.
+SFX B2  Y  12
+SFX B2  ъ  ꙑи       ъ   is:singular  И, В
+SFX B2  ъ  аего     ъ   is:singular  Р
+SFX B2  ъ  уему    ъ   is:singular  Д
+SFX B2  ъ  ꙑимь   ъ   is:singular  Т
+SFX B2  ъ  ѣемь    ъ   is:singular  М
+SFX B2  ъ  аꙗ       ъ   is:double  И, В
+SFX B2  ъ  ую       ъ   is:double  Р, М
+SFX B2  ъ  ꙑима   ъ   is:double  Д,Т
+SFX B2  ъ  ии        ъ   is:plural  И, В
+SFX B2  ъ  ꙑихъ   ъ   is:plural  Р, М
+SFX B2  ъ  ꙑимъ   ъ   is:plural  Д
+SFX B2  ъ  ꙑими   ъ   is:plural  Т
+
+# енклитични елементи и, ꙗ, ѥ - ж.р.
+SFX B3  Y  8
+SFX B3  а  аꙗ       а   is:singular  И
+SFX B3  а  ꙑѧ       а   is:singular  Р
+SFX B3  а  ѣи        а   is:singular  Д, М  is:double  И, В
+SFX B3  а  ѫѭ      а   is:singular  В
+SFX B3  а  оѭ       а   is:singular  Т
+SFX B3  а  ую       а   is:double  Р, М
+SFX B3  а  ꙑима   а   is:double  Д,Т
+SFX B3  а  ꙑѧ       а   is:plural  И, В
+
+
+# енклитични елементи и, ꙗ, ѥ - с.р.
+SFX B6  Y  8
+SFX B6  о  оѥ       о   is:singular  И, В
+SFX B6  о  аѥго     о   is:singular  Р
+SFX B6  о  уѥму    о   is:singular  Д
+SFX B6  о  ꙑимь   о   is:singular  Т
+SFX B6  о  ѣѥмь    о   is:singular  М
+SFX B6  о  ою       о   is:double  Р, М
+SFX B6  о  ꙑима   о   is:double  Д,Т
+SFX B6  о  аꙗ        о   is:plural  И, В is:double  И, В
 
 # прилагателни меки основи - нь, жь, й, ьнь, ий
-SFX B4  Y 11
+SFX B4  Y 14
 SFX B4  нь  нь/G2S4   нь  is:m
 SFX B4  нь  нꙗ/Z3       нь  is:f
-SFX B4  нь  ьѥ/S1       нь  is:n
+SFX B4  нь  нѥ/S1       нь  is:n
 SFX B4  ь    ь/G2S4     ь   is:m
+SFX B4  ь    ь/B7         ь   is:m
 SFX B4  ь    а/Z0S5     ь    is:f
+SFX B4  ь    а/B8         ь    is:f
 SFX B4  ь    о/S1         ь    is:n
+SFX B4  ь    о/B9         ь    is:n
 SFX B4  жь  жь/G4S4  жь  is:m
 SFX B4  жь  же/S2S4  жь  is:m
 SFX B4  й     й/G3        й    is:m
-SFX B4  й     ꙗ/Z3        й    is:f
-SFX B4  й     ѥ/S1        й    is:n
+SFX B4  й     ꙗ/Z3       й    is:f
+SFX B4  й     ѥ/S1       й    is:n
+
+
+# енклитични елементи и, ꙗ, ѥ - м.р.
+SFX B7  Y  11
+SFX B7  ь  ьи       ь   is:singular  И, В
+SFX B7  ь  аего    ь   is:singular  Р
+SFX B7  ь  уему   ь   is:singular  Д
+SFX B7  ь  иимь   ь   is:singular  Т, М
+SFX B7  ь  аꙗ       ь   is:double  И, В
+SFX B7  ь  ую       ь   is:double  Р, М
+SFX B7  ь  иима    ь   is:double  Д,Т
+SFX B7  ь  ии        ь   is:plural  И, В
+SFX B7  ь  иихъ    ь   is:plural  Р, М
+SFX B7  ь  иимъ   ь   is:plural  Д
+SFX B7  ь  иими   ь   is:plural  Т
+
+
+# енклитични елементи и, ꙗ, ѥ - ж.р.
+SFX B8  Y  7
+SFX B8  а  аа        а   is:singular  И
+SFX B8  а  ѧѧ        а   is:singular  Р is:plural  И, В
+SFX B8  а  ии        а   is:singular  Д, М  is:double  И, В
+SFX B8  а  ѫѭ      а   is:singular  В
+SFX B8  а  еѭ       а   is:singular  Т
+SFX B8  а  ую       а   is:double  Р, М
+SFX B8  а  иима    а   is:double  Д,Т
+
+# енклитични елементи и, ꙗ, ѥ - с.р.
+SFX B9  Y  7
+SFX B9  о  ии        о   is:singular  И, В
+SFX B9  о  аѥго    о   is:singular  Р
+SFX B9  о  уѥму   о   is:singular  Д
+SFX B9  о  иимь    о   is:singular  Т, М
+SFX B9  о  ую       о   is:double  Р, М
+SFX B9  о  иима    о   is:double  Д,Т
+SFX B9  о  аꙗ       о   is:plural  И, В is:double  И, В
 
 
 # 1-во склонение:  м.р.  -ъ, -ь, и, ср.р -  о, е , -ѥ, -нь
@@ -133,14 +212,14 @@ SFX S0  о           а          о       is:singular  Р
 SFX S0  о           у          о       is:singular  Д
 SFX S0  о           омь      о       is:singular  Т
 SFX S0  о           ѣ          о       is:singular  М
-SFX S0  о           ѣ          о      is:double   И, В, М
-SFX S0  о           у          о      is:double   Р
-SFX S0  о           ома      о      is:double   Д, Т
-SFX S0  о           а          о      is:plural   И,В
-SFX S0  о           ъ          о      is:plural  Р
-SFX S0  о           омъ      о      is:plural  Д
-SFX S0  о           ꙑ         о      is:plural  Т
-SFX S0  о           ѣхъ      о      is:plural  М
+SFX S0  о           ѣ          о       is:double   И, В, М
+SFX S0  о           у          о       is:double   Р
+SFX S0  о           ома      о       is:double   Д, Т
+SFX S0  о           а          о       is:plural   И,В
+SFX S0  о           ъ          о       is:plural  Р
+SFX S0  о           омъ      о       is:plural  Д
+SFX S0  о           ꙑ         о       is:plural  Т
+SFX S0  о           ѣхъ      о       is:plural  М
 
 # същ. спряжение на -o основа ср. р  полѥ
 # -ьѥ
@@ -149,14 +228,14 @@ SFX S1  ѥ           ꙗ          ѥ       is:singular  Р
 SFX S1  ѥ           ю          ѥ       is:singular  Д
 SFX S1  ѥ           ѥмь      ѥ       is:singular  Т
 SFX S1  ѥ           и           ѥ       is:singular  М
-SFX S1  ѥ           и           ѥ      is:double   И, В, М
-SFX S1  ѥ           ю          ѥ      is:double   Р
-SFX S1  ѥ           ѥма      ѥ      is:double   Д, Т
-SFX S1  ѥ           ꙗ          ѥ      is:plural   И,В
+SFX S1  ѥ           и           ѥ       is:double   И, В, М
+SFX S1  ѥ           ю          ѥ       is:double   Р
+SFX S1  ѥ           ѥма      ѥ       is:double   Д, Т
+SFX S1  ѥ           ꙗ          ѥ       is:plural   И,В
 SFX S1  ѥ           ь           [^ьо][ѥ]     is:plural  Р
-SFX S1  ѥ           ѥмъ      ѥ      is:plural  Д
-SFX S1  ѥ           и           ѥ      is:plural  Т
-SFX S1  ѥ           ихъ       ѥ      is:plural  М
+SFX S1  ѥ           ѥмъ      ѥ       is:plural  Д
+SFX S1  ѥ           и           ѥ       is:plural  Т
+SFX S1  ѥ           ихъ       ѥ       is:plural  М
 
 # същ. спряжение на -o основа ср. р  ложе, срьдьце
 SFX S2 Y  12	    #  1 И,В
@@ -300,12 +379,13 @@ SFX Z0   а           ахъ       а       is:plural  М
 
  # същ. спряжение на -а основа нога, рѫка, муха, душа
 # -ица, -ьница
-SFX Z1 Y 12     
+SFX Z1 Y 13     
 SFX Z1   а           ꙑ          а    is:singular   Р
 SFX Z1   га          ꙃе         [г]а        is:singular  Д, М is:double  И, В 
 SFX Z1   ка          це         [к]а       is:singular   Д, М is:double  И, В 
 SFX Z1   ха          сѣ        [х]а       is:singular   Д, М is:double  И, В 
-SFX Z1   а            е          [^гкх]а       is:singular  Д, М is:double  И, В 
+SFX Z1   ца          ци        [ц]а       is:singular   Д, М is:double  И, В 
+SFX Z1   а            е          [^гкхц]а       is:singular  Д, М is:double  И, В 
 SFX Z1   а            ѫ           а   is:singular   В
 SFX Z1   а            оѭ        а   is:singular   Т
 SFX Z1   а            ꙑ          а    is:plural  И, В

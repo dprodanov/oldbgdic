@@ -1,4 +1,4 @@
-﻿978
+﻿1010
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -533,9 +533,7 @@
 несѫ/VC	po:adv
 нигъда
 нищета/Z0S5	po:noun
-нова/Z0S5
-ново/S0
-новъ/G0S3
+новъ/B5	po:adj
 нога/Z1S5	po:noun
 ножь/G2S4	po:noun
 ножь/G2S4	po:noun
@@ -977,3 +975,37 @@
 усмѣнъ/B5	po:adj
 водьнъ/B5	po:adj
 црькъвьнъ/B5	po:adj
+жениховъ/B5	po:adj
+львовъ/B5	po:adj
+скѫдельниковъ/B5	po:adj
+учителевъ/B5	po:adj
+голѫбинъ/B5	po:adj
+чловѣчь/B4	po:adj
+говѧждь/B4	po:adj
+пророчь/B4	po:adj
+кънѧжь/B4	po:adj
+матерь/B4	po:adj
+говѧдо/S0	po:noun
+господьнь/B4	po:adj
+матерьнь/B4	po:adj
+дружьнь/B4	po:adj
+божий/B4	po:adj
+сильно	po:adverb
+седьмица/Z1	po:noun
+вражий/B4	po:adj
+овчьий/B4	po:adj
+мѧкъкъ/B5	po:adj
+горькъ/B5	po:adj
+кротъкъ/B5	po:adj
+древле	po:adverb
+послѣжде	po:adverb
+различь	po:adverb
+исплънь	po:adverb
+худъ/B5	po:adj
+драгъ/B5	po:adj
+крѣпъкъ/B5	po:adj
+великъ/B5	po:adj
+сестра/Z0S5	po:noun
+нищь/B4	po:adj
+нища/B8	po:adj
+нищо/B9	po:adj
