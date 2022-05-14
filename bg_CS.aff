@@ -54,6 +54,9 @@ PFX SF 0 зъло
 PFX SU Y 1
 PFX SU 0  у
 
+PFX SN Y 1
+PFX SN 0  не
+
 PFX SP Y 3
 PFX SP 0  прѣ  
 PFX SP 0  про
@@ -72,16 +75,17 @@ PFX SO Y 2
 PFX SO 0  нѣ
 PFX SO 0  ни
 
-PFX SR Y 5
+PFX SR Y 6
 PFX SR 0  рас [кптфхцчшщ] 
 PFX SR 0  раз [бвгдлмнжраоуиеѫꙗѥѣѫѧ]
 PFX SR 0  ра [зс] 
 PFX SR 0  по
 PFX SR 0  съ
+PFX SR 0  от
   
 # блѫдь
 SFX B0  Y 7
-SFX B0  0  никъ/G0 .
+SFX B0  0  никъ/G0S3 .
 SFX B0  0  ница/Z0 .
 SFX B0  0  чьскъ .
 SFX B0  0  ничьство/S0  .
@@ -99,19 +103,27 @@ SFX B2  Y 1
 SFX B2  0  ьѥ/S1 .
 
 
-# SFX B2 Y  2
-# SFX B2 0  ъкъ/G0 .
-
-# прилагателни
+# прилагателни твърди основи - ьнъ, ъкъ, ѣнъ, окъ, атъ, ивъ, овъ, евъ, инъ
 SFX B5  Y 3
-SFX B5  0  ьнъ/G0 .
-SFX B5  0  ьна/Z0 .
-SFX B5  0  ьно/S0 .
+SFX B5  ъ  ъ/G0S3       ъ  is:m
+SFX B5  ъ  а/Z0S5        ъ  is:f
+SFX B5  ъ  о/S0            ъ  is:n
 
-SFX B3  Y 3
-SFX B3  0  ъкъ/G0 .
-SFX B3  0  ка/Z0 .
-SFX B3  0  ко/S0 .
+
+# прилагателни меки основи - нь, жь, й, ьнь, ий
+SFX B4  Y 11
+SFX B4  нь  нь/G2S4   нь  is:m
+SFX B4  нь  нꙗ/Z3       нь  is:f
+SFX B4  нь  ьѥ/S1       нь  is:n
+SFX B4  ь    ь/G2S4     ь   is:m
+SFX B4  ь    а/Z0S5     ь    is:f
+SFX B4  ь    о/S1         ь    is:n
+SFX B4  жь  жь/G4S4  жь  is:m
+SFX B4  жь  же/S2S4  жь  is:m
+SFX B4  й     й/G3        й    is:m
+SFX B4  й     ꙗ/Z3        й    is:f
+SFX B4  й     ѥ/S1        й    is:n
+
 
 # 1-во склонение:  м.р.  -ъ, -ь, и, ср.р -  о, е , -ѥ, -нь
 #  същ. спряжение на -o основа ср. р  село
@@ -174,14 +186,14 @@ SFX G0 Y  14
 SFX G0  ъ           а          ъ       is:singular  Р, В
 SFX G0  ъ           у          ъ       is:singular  Д
 SFX G0  ъ           омь      ъ       is:singular  Т
-SFX G0  ъ           ѣ          [^мнбр]ъ       is:singular  М
-SFX G0  ъ           у          [мнбр]ъ       is:singular  М
+SFX G0  ъ           ѣ          [^лмнбр]ъ       is:singular  М
+SFX G0  ъ           у          [лмнбр]ъ       is:singular  М
 SFX G0  ъ           е          ъ       is:singular  З
-SFX G0  ъ           ове      [^н]ъ      is:plural   И
+SFX G0  ъ           ове      [^лмнбр]ъ      is:plural   И
 SFX G0  ъ           и          ъ      is:plural   И,З
 SFX G0  инъ        е        инъ    is:plural   И,З
 SFX G0  ъ           ъ          ъ      is:plural  Р
-SFX G0  ъ           овъ       ъ      is:plural  Р
+SFX G0  ъ           овъ       [^лмнбр]ъ      is:plural  Р
 SFX G0  ъ           омъ      ъ      is:plural  Д
 SFX G0  ъ           ꙑ         ъ      is:plural  В,Т
 SFX G0  ъ           ѣхъ      ъ      is:plural  М
@@ -253,20 +265,20 @@ SFX G4  ь           ихъ      [цжшщ]ь      is:plural  М
 SFX G4  ь           ехъ      [^цжшщ]ь      is:plural  М
 
 
- # същ. спряжение на - основа м. р - край
+ # същ. спряжение на - основа м. р - край/краи
 SFX G3 Y  10	   #1					 И,В
-SFX G3  й           ꙗ         й       is:singular  Р
-SFX G3  й           ю         й       is:singular  Д
-SFX G3  й           емь      й       is:singular  Т
-SFX G3  й           и          й       is:singular  М
-SFX G3  й           ꙗ         й      is:double   И, В
-SFX G3  й           ю         й       is:double  Р, М
-SFX G3  й           ема      й       is:double  Д,Т
-SFX G3  й           и          й      is:plural   И, Р, Т
-SFX G3  й           емъ      й      is:plural  Д
-SFX G3  й           ихъ      й      is:plural  М
+SFX G3  й           ꙗ         .       is:singular  Р
+SFX G3  й           ю         .       is:singular  Д
+SFX G3  й           емь      .       is:singular  Т
+SFX G3  й           и          .       is:singular  М
+SFX G3  й           ꙗ         .      is:double   И, В
+SFX G3  й           ю         .       is:double  Р, М
+SFX G3  й           ема      .       is:double  Д,Т
+SFX G3  й           и          .      is:plural   И, Р, Т
+SFX G3  й           емъ      .      is:plural  Д
+SFX G3  й           ихъ      .      is:plural  М
 
-# двойно число
+# двойно число -  Z0, Z1
 SFX S5 Y 2
 SFX S5   а           у           а      is:double   Р, М
 SFX S5   а           ама       а      is:double   Д, Т
@@ -757,7 +769,7 @@ SFX  VB ъ ъ/G0 .
 SFX  VB ъ о/S0 .
 SFX  VB ъ а/Z0 .
 
-# сегашно деятелно причастие, несꙑ - 1,2, 4 спряжение
+# сегашно деятелно причастие, несꙑ - 1,2, 5 спряжение
 SFX VC Y  21	   #1 
 SFX VC  ѫ         ꙑ       [ѫ]       is:singular  И
 SFX VC  0          ща       .       is:singular  Р
