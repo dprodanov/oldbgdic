@@ -1,4 +1,4 @@
-﻿1010
+﻿1044
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -115,7 +115,7 @@
 вратити/SR	po:verbinf
 вратитъ/SRV4	po:verb
 врахъ/V9	po:verb
-врачь/G2S4	po:noun
+врачь/G4S4	po:noun
 връхъ/G7	po:noun
 врьжетъ/V1A1	po:verb
 врьзетъ/SRV1A1	po:verb
@@ -181,7 +181,7 @@
 горѣ	po:adverb
 горѧщина/Z0S5	po:noun
 господарь/G2	po:noun
-господь/G4	po:noun
+господь/G6	po:noun
 гоститъ/V4A1	po:verb
 гость/G5	po:noun
 градъ/G0S3	po:noun
@@ -387,7 +387,7 @@
 коснѫти/V6	po:verbinf
 коснѫхъ/V9	po:verb
 кость/G6S6	po:noun
-кошь/G2S4	po:noun
+кошь/G4S4	po:noun
 крꙑваетъ/V3A1SR	po:verb
 крꙑвати/V6SR	po:verbinf
 крꙑти/V6	po:verb
@@ -505,7 +505,7 @@
 мѧтежьно	po:adverb
 мѧтетъ/V1A1	po:verb
 мѧтетъ/V1A1	po:verb
-мѫжь/G2S4	po:noun
+мѫжь/G4S4	po:noun
 мѫжьство/S0S3	po:noun
 мѫка/Z1S5	po:noun
 мѫтити/V6	po:verbinf
@@ -571,7 +571,7 @@
 отъ
 отъвѣщ/KKW4	po:stem
 отънели/ZE
-отьць/G2S4	po:noun
+отьць/G4S4	po:noun
 оцьтъ/G0S3	po:noun
 падетъ/V1A1	po:verb
 падъ/V8	po:verb
@@ -1009,3 +1009,37 @@
 нищь/B4	po:adj
 нища/B8	po:adj
 нищо/B9	po:adj
+ось	po:noun
+соль	po:noun
+съмотритъ/V4	po:verb
+съмотрити/V6	po:verbinf
+ломити/V6	po:verbinf
+ломитъ/V4	po:verb
+пльвати/V6	po:verbinf
+плюетъ/V3	po:verb
+ломитъ/V4	po:verb
+вести/V6SR	po:verbinf
+везетъ/V1A1SR	po:verb
+лѣсти/V6SR	po:verbinf
+лѣзетъ/V1A1SR	po:verb
+съборъ/G0S3	po:noun
+сватьба/Z0S5	po:noun
+съдравиѥ/S1	po:noun
+бъчела/Z0S5	po:noun
+бьчела/Z0S5	po:noun
+цѣлѣти/V6SQ	po:verbinf
+цѣлѣѥтъ/V3A1SQ	po:verb
+цъвтѣти/V6	po:verbinf
+мести/V6SQ	po:verbinf
+мететъ/V1SQ	po:verb
+мѣсто/S0	po:noun
+вѣко/S0	po:noun
+братръ/G0S3	po:noun
+братъ/G0S3	po:noun
+гласъ/G0S3	po:noun
+бѣсъ/G0S3	po:noun
+кумирь/G2S4	po:noun
+иний/G3	po:noun
+чрѣвий/G3S4	po:noun
+врабий/G3S4	po:noun
+кънѧꙃь/G4S4	po:noun
