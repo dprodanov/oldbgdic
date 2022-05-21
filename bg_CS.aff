@@ -150,7 +150,7 @@ SFX B6  о  аꙗ        о   is:plural  И, В is:double  И, В
 # прилагателни меки основи - нь, жь, й, ьнь, ий
 SFX B4  Y 14
 SFX B4  нь  нь/G2S4   нь  is:m
-SFX B4  нь  нꙗ/Z3       нь  is:f
+SFX B4  нь  нꙗ/Z5       нь  is:f
 SFX B4  нь  нѥ/S1       нь  is:n
 SFX B4  ь    ь/G2S4     ь   is:m
 SFX B4  ь    ь/B7         ь   is:m
@@ -161,7 +161,7 @@ SFX B4  ь    о/B9         ь    is:n
 SFX B4  жь  жь/G4S4  жь  is:m
 SFX B4  жь  же/S2S4  жь  is:m
 SFX B4  й     й/G3        й    is:m
-SFX B4  й     ꙗ/Z3       й    is:f
+SFX B4  й     ꙗ/Z5       й    is:f
 SFX B4  й     ѥ/S1       й    is:n
 
 
@@ -200,23 +200,23 @@ SFX B9  о  ую       о   is:double  Р, М
 SFX B9  о  иима    о   is:double  Д,Т
 SFX B9  о  аꙗ       о   is:plural  И, В is:double  И, В
 
-# сравнителна степенъ м.р.
-SFX BA  Y  15
-SFX BA  0    ьи       .   is:singular И  
-SFX BA  0    е       .   is:singular И  is:n
-SFX BA  0    ьша         .   is:singular  Р is:double И, В
-SFX BA  0    ьшу         .   is:singular  Д is:double  Р, М
-SFX BA  0    ии          .   is:singular  В
-SFX BA  0    ьшь         .   is:singular  В,  is:plural  Р
-SFX BA  0    ьше         .   is:singular  В,  is:plural  Р is:n
-SFX BA  0    ьшемь     .   is:singular  Т
-SFX BA  0    ьши         .   is:singular  М, is:plural Т
-SFX BA  0    ьше         .   is:plural  И
-SFX BA  0    ьшемъ     .   is:plural  Д
-SFX BA  0    ьшѧ         .   is:plural  В
-SFX BA  0    ьша         .   is:plural  В is:m
-SFX BA  0    ьшихъ     .   is:plural  М
-SFX BA  0    ьшема     .   is:double  Д,Т
+# сравнителна степенъ, кратки
+SFX BA Y 7
+SFX BA  ьи  ьшь/G4S4  . is:m
+SFX BA  ьи  ии          . is:m
+SFX BA  ьи  ий          .  is:m
+SFX BA  ьи  ьше/S2  . is:n
+SFX BA  ьи  ѥ          [лрн]ьи is:n
+SFX BA  ьи  ьше       . is:n
+SFX BA  ьи  ьши/Z3  . is:f
+
+# сравнителна степенъ, дълги
+SFX BB Y 5
+SFX BB  и   ишь/G4S4  . is:m
+SFX BB  и   ѥ               . is:n
+SFX BB  и   е               . is:n
+SFX BB  и   ише/S2      . is:n
+SFX BB  ьи  ьши/Z3      . is:f
 
 
 
@@ -390,51 +390,56 @@ SFX Z0   а           амъ       а       is:plural  Д
 SFX Z0   а           ами       а       is:plural  Т
 SFX Z0   а           ахъ       а       is:plural  М
 
- # същ. спряжение на -а основа нога, рѫка, муха, душа, дъска
+ # същ. спряжение на -а основа нога, рѫка, муха,  дъска
 # -ица, -ьница
-SFX Z1 Y 15     
+SFX Z1 Y 13     
 SFX Z1   а           ꙑ          [гкхц]а    is:singular   Р is:plural  И, В
-SFX Z1   а           ѧ          [ш]а    is:singular   Р is:plural  И, В
 SFX Z1   га          ꙃе         [^з][г]а        is:singular  Д, М is:double  И, В 
 SFX Z1   зга         здѣ       зга        is:singular  Д, М is:double  И, В 
 SFX Z1   ка          це        [^с][к]а       is:singular   Д, М is:double  И, В 
 SFX Z1   ска         сте        ска       is:singular   Д, М is:double  И, В 
 SFX Z1   ха          сѣ        [х]а       is:singular   Д, М is:double  И, В 
 SFX Z1   ца          ци        [ц]а       is:singular   Д, М is:double  И, В 
-SFX Z1   а            е          [^гкхц]а       is:singular  Д, М is:double  И, В 
-SFX Z1   а            ѫ           а   is:singular   В
-SFX Z1   а            оѭ        а   is:singular   Т
-SFX Z1   а            ъ           а    is:plural  Р
-SFX Z1   а            амъ      а   is:plural  Д
-SFX Z1   а            ами      а   is:plural  Т
-SFX Z1   а            ахъ       а   is:plural  М
+SFX Z1   а            ѫ           .   is:singular   В
+SFX Z1   а            оѭ        .   is:singular   Т
+SFX Z1   а            ъ           .    is:plural  Р
+SFX Z1   0            мъ         .   is:plural  Д
+SFX Z1   0            ми         .   is:plural  Т
+SFX Z1   0            хъ         .   is:plural  М
 
-# мн ч. ыни
-# същ. спряжение на -а основа 
-# -ыии
-SFX Z3 Y  22	  
-SFX Z3   ꙗ           ѩ          ꙗ      is:singular   Р
-SFX Z3   а            ѧ           а     is:singular   Р
-SFX Z3   ꙗ           и           .      is:singular   Д, М
-SFX Z3   ꙗ           ѭ         ꙗ      is:singular   В
-SFX Z3   а           ѫ           а      is:singular   В
-SFX Z3   ꙗ           ѥѭ      ꙗ      is:singular   Т  
-SFX Z3   а           еѭ        а      is:singular   Т  
-SFX Z3   ꙗ           ѥ         ꙗ      is:singular   З 
-SFX Z3   а           е           а      is:singular   З 
-SFX Z3   ꙗ           и           .      is:double   И, В
-SFX Z3   ꙗ           ю          ꙗ      is:double   Р, М, З
-SFX Z3   а            у           а      is:double   Р, М, З
-SFX Z3   0           ма          .      is:double   Д, Т
-SFX Z3   ꙗ           ѩ          [^аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
-SFX Z3   а            ѧ           а      is:plural  И, В, З
-SFX Z3   ꙗ           и          [аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
-SFX Z3   ꙗ           ь           [^аоуеиѣѫѧѩ]ꙗ      is:plural  Р
-SFX Z3   а            и           а      is:plural  Р
-SFX Z3   а            ь           а      is:plural  Р
-SFX Z3   0            мъ       .       is:plural  Д
-SFX Z3   0            ми       .       is:plural  Т
-SFX Z3   0            хъ        .       is:plural  М
+# мн ч. ꙑни
+# същ. спряжение на -ꙗ основа 
+# -ыии  душа,
+SFX Z3 Y  13	  
+SFX Z3   а            ѧ           .     is:singular   Р
+SFX Z3   а           ѭ           .      is:singular   В
+SFX Z3   а            ѫ           .      is:singular   В
+SFX Z3   а            еѭ        .      is:singular   Т  
+SFX Z3   а            е           .      is:singular   З 
+SFX Z3   а            у           .      is:double   Р, М, З
+SFX Z3   а            ама       .      is:double   Д, Т
+SFX Z3   а            ѧ           .      is:plural  И, В, З
+SFX Z3   а            и           .      is:plural  Р
+SFX Z3   а            ь           .      is:plural  Р
+SFX Z3   а            амъ       .       is:plural  Д
+SFX Z3   а            ами       .       is:plural  Т
+SFX Z3   а            ахъ       .       is:plural  М
+
+# същ. спряжение на -ꙗ основа 
+SFX Z5 Y  13	  
+SFX Z5   ꙗ           ѩ          ꙗ      is:singular   Р
+SFX Z5   ꙗ           и           .      is:singular   Д, М  is:double   И, В
+SFX Z5   ꙗ           ѭ         ꙗ      is:singular   В
+SFX Z5   ꙗ           ѥѭ       ꙗ      is:singular   Т  
+SFX Z5   ꙗ           ѥ          ꙗ      is:singular   З 
+SFX Z5   ꙗ           ю          ꙗ      is:double   Р, М, З
+SFX Z5   ꙗ           ꙗма          .      is:double   Д, Т
+SFX Z5   ꙗ           ѩ          [^аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
+SFX Z5   ꙗ           и          [аоуеиѣѫѧѩ]ꙗ       is:plural  И, В, З
+SFX Z5   ꙗ           ь           [^аоуеиѣѫѧѩ]ꙗ      is:plural  Р
+SFX Z5   ꙗ           ꙗмъ       .       is:plural  Д
+SFX Z5   ꙗ           ꙗми       .       is:plural  Т
+SFX Z5   ꙗ           ꙗхъ        .       is:plural  М
 
 # същ. спряжение на -а основа   млъниѧ
 SFX Z4 Y  14    
@@ -709,7 +714,7 @@ SFX ZQ      ъ    ꙑ      [с]ъ     is:plural   И, ж.р.
 
 # притежателни местоимения
 SFX ZP Y 2
-SFX ZP      и    ꙗ/Z3    . 
+SFX ZP      и    ꙗ/Z5    . 
 SFX ZP      и    ѥ/S1    .
  
 

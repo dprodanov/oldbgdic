@@ -1,4 +1,4 @@
-﻿1171
+﻿1182
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -19,18 +19,18 @@
 агнѧ/NT	po:noun
 агода/Z0S5	po:noun
 азъ	po:pronoun
-алдиꙗ/Z3	po:noun
+алдиꙗ/Z5	po:noun
 али
-алниꙗ/Z3	po:noun
+алниꙗ/Z5	po:noun
 апостолъ/G0S3
 аще
 бꙑти/V6	po:verbinf
 бꙑхъ/V9	po:verbaor
 багъръ/G0	po:noun
-багърѣница/Z3	po:noun
+багърѣница/Z5	po:noun
 баловати/V6	po:verbinf
 балуваетъ/V3A1	po:verb
-банꙗ/Z3	po:noun
+банꙗ/Z5	po:noun
 басъ/VA	po:verb
 бедро/S0	po:noun
 беретъ/V1A1	po:verb
@@ -48,7 +48,7 @@
 блѫдъ	po:noun
 блѫдь/KKB0	po:stem
 бо
-богꙑнꙗ/Z3	po:noun
+богꙑнꙗ/Z5	po:noun
 богат/KKW3	po:stem
 богатъ/B5	po:adj
 богатьство/S0S3	po:noun
@@ -70,7 +70,7 @@
 бу/KKW3	po:stem
 буй/B4	po:adj
 букꙑ/T1	po:noun
-бурꙗ/Z3	po:noun
+бурꙗ/Z5	po:noun
 бъчела/Z0S5	po:noun
 бьрати/V6	po:verbinf
 бьрахъ/V9	po:verbaor
@@ -334,7 +334,7 @@
 дрѣво/NSS0	po:noun
 дрѧзга/Z1S5	po:noun
 духъ/G0S3	po:noun
-душа/Z1S5	po:noun
+душа/Z3	po:noun
 дъметъ/V1A1	po:verb
 дъска/Z1S5	po:noun
 дъщи/T5	po:noun
@@ -422,7 +422,7 @@
 звѣрь/G6S6	po:noun
 звѧжетъ/V1A1	po:verb
 звѧщи/V6	po:verbinf
-землꙗ/Z3	po:noun
+землꙗ/Z5	po:noun
 землетъ/V3SQ	po:verb
 землянинъ/G0	po:noun
 зимьнъ/B5	po:adj
@@ -431,7 +431,7 @@
 зинѫти/V6	po:verbinf
 злато/S0S3	po:noun
 златъ
-змиꙗ/Z3	po:noun
+змиꙗ/Z5	po:noun
 знавъ/VE	po:adv
 знаетъ/V3A1	po:verb
 знаи/VG	po:verbimp
@@ -442,7 +442,7 @@
 знаѧ/KKVC	po:adv
 зной/G3	po:noun
 зоветъ/V1A1	po:verb
-зодиꙗ/Z3	po:noun
+зодиꙗ/Z5	po:noun
 зороваетъ/V3A1SR	po:verb
 зоровати/V6SR	po:verbinf
 зъвати/SQV6	po:verbinf
@@ -547,10 +547,10 @@
 кънѧзь/G4S4	po:noun
 кѧжетъ/V3A1	po:verb
 кѧзати/V6	po:verb
-ладиꙗ/Z3	po:noun
+ладиꙗ/Z5	po:noun
 лакътъ/G0	po:noun
 лакъть/G5G6S6	po:noun
-ланиꙗ/Z3	po:noun
+ланиꙗ/Z5	po:noun
 лани	po:adverb
 ласка/Z0S5	po:noun
 ледъ/G7	po:noun
@@ -571,7 +571,7 @@
 ломитъ/V4A1	po:verb
 лъжа/Z1S5	po:noun
 львовъ/B5	po:adj
-льгꙑнꙗ/Z3	po:noun
+льгꙑнꙗ/Z5	po:noun
 любꙑ/T1	po:noun
 любитъ/V4A1	po:verb
 любо
@@ -622,7 +622,7 @@
 млъкнѫти/V6	po:verbinf
 млъниѧ/Z4	po:noun
 млѣти/V6	po:verb
-моꙗ/Z3
+моꙗ/Z5
 могъ/V8SQ	po:verb
 можданъ/B5	po:adj
 можетъ/V1A1SQ	po:verb
@@ -905,7 +905,7 @@
 свободьнъ/B5	po:adj
 своего/ZT
 свои/ZP
-свѧтꙑнꙗ/Z3	po:noun
+свѧтꙑнꙗ/Z5	po:noun
 себе/MT
 себѣ
 сего/ZT
@@ -962,7 +962,7 @@
 стражь/G4	po:noun
 стрижетъ/V1A1	po:verb
 строитъ/V4A1	po:verb
-струꙗ/Z3	po:noun
+струꙗ/Z5	po:noun
 стрѣла/Z0S5	po:noun
 стрѣщи/V6	po:verbinf
 стьза/Z1S5	po:noun
@@ -996,7 +996,7 @@
 сѧ
 сѧадъ/V8	po:verb
 сѧтъ
-сѫдиꙗ/Z3	po:noun
+сѫдиꙗ/Z5	po:noun
 сѫдъ/G0S3	po:noun
 сѫтъ
 тꙑ
@@ -1103,7 +1103,7 @@
 цѣлѣѥтъ/V3A1SQ	po:verb
 цѣща	po:adverb
 чабьръ/G0S3	po:noun
-чаша/Z1S5	po:noun
+чаша/Z3	po:noun
 чезнетъ/V1A1	po:verb
 чезнѫти/V6	po:verbinf
 чиего/ZT
@@ -1166,7 +1166,18 @@
 поставъ/G0S3	po:noun
 междина/Z0S5	po:noun
 божь/KKB0	po:stem
-вꙑш/KKBA	po:adj
-вꙑше/S2	po:adj
-вꙑшь/G4	po:adj
-вꙑшьши/G4	po:adj
+вꙑшьи/BA	po:adj
+добрѣи/BB	po:adj
+больи/BA	po:adj
+дражьи/BA	po:adj
+хуждьи/BA	po:adj
+крѣпльи/BA	po:adj
+ширьи/BA	po:adj
+люущьи/BA	po:adj
+вѧщьи/BA	po:adj
+горьи/BA	po:adj
+мьньи/BA	po:adj
+сульи/BA	po:adj
+лучьи/BA	po:adj
+уньи/BA	po:adj
+босъ/B5	po:adj
