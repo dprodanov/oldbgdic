@@ -1,4 +1,4 @@
-﻿1158
+﻿1171
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -545,7 +545,6 @@
 кънѧгꙑнѧ/Z4	po:noun
 кънѧжь/B4	po:adj
 кънѧзь/G4S4	po:noun
-къпитъ/V4A1	po:verb
 кѧжетъ/V3A1	po:verb
 кѧзати/V6	po:verb
 ладиꙗ/Z3	po:noun
@@ -1157,3 +1156,17 @@
 ѫзъко	po:adverb
 ѫтрь	po:adverb
 ѭ
+пѣти/V6SQ	po:verbinf
+поетъ/V3A1SQ	po:verb
+доселѣ	po:adverb
+испьрѧ/Z4	po:noun
+испꙑть/G6S6	po:noun
+срамити/V6SQ	po:verbinf
+срамитъ/V4A1	po:verb
+поставъ/G0S3	po:noun
+междина/Z0S5	po:noun
+божь/KKB0	po:stem
+вꙑш/KKBA	po:adj
+вꙑше/S2	po:adj
+вꙑшь/G4	po:adj
+вꙑшьши/G4	po:adj
