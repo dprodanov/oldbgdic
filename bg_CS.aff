@@ -717,7 +717,6 @@ SFX ZP Y 2
 SFX ZP      и    ꙗ/Z5    . 
 SFX ZP      и    ѥ/S1    .
  
-
  # двойно число
 SFX  A1 Y 3
 SFX  A1 тъ  вѣ    [^с]тъ   is:double
@@ -731,16 +730,17 @@ SFX  A2 тъ        те    .      is:double
 
   
 # 1,2 спряжение, сег време -е, -а 1, -не 2
-SFX  V1 Y 9
+SFX  V1 Y 10
 SFX  V1 етъ        ѫ     [^чж]етъ       is:singular
 SFX  V1 четъ       кѫ    [ч]етъ       is:singular
 SFX  V1 жетъ      гѫ    [ж]етъ       is:singular
 SFX  V1 тъ          ши   .       is:singular
 SFX  V1 тъ          мъ   .       is:plural 
 SFX  V1 тъ          те    .       is:plural 
-SFX  V1 етъ        ѫтъ    [^чж]етъ        is:plural 
+SFX  V1 етъ        ѫтъ    [^чжщ]етъ        is:plural 
 SFX  V1 четъ      кѫтъ    [ч]етъ       is:singular
 SFX  V1 жетъ     гѫтъ    [ж]етъ       is:singular
+SFX  V1 щетъ     тѧтъ    [щ]етъ       is:singular
 
 # 3 спряжение, сег време - ѥ, е
 SFX  V3 Y 9
@@ -757,22 +757,22 @@ SFX  V3 етъ       ѫтъ    [^ауилрюѣо]етъ    is:plural
 # 4 спряжение, сег. време - и
 SFX  V4 Y 17
 SFX  V4 дитъ     ждѫ    [д]итъ     is:singular
-SFX  V4 ститъ    щѫ     [т]итъ     is:singular
-SFX  V4 ѣтитъ    ѣщѫ   [т]итъ     is:singular
-SFX  V4 ситъ     шѫ     [с]итъ     is:singular
-SFX  V4 хитъ     шѫ     [х]итъ     is:singular
-SFX  V4 китъ     чѫ      [к]итъ     is:singular
-SFX  V4 цитъ     чѫ     [ц]итъ     is:singular
-SFX  V4 итъ       ѫ      [чжшщ]итъ     is:singular
-SFX  V4 зитъ     жѫ      [з]итъ     is:singular
-SFX  V4 гитъ     жѫ      [г]итъ     is:singular
-SFX  V4 итъ       ѭ        [аоуеѣѫнлр]итъ     is:singular
-SFX  V4 итъ       лѭ      [бпвм]итъ     is:singular
-SFX  V4 тъ         ши      [ѥи]тъ       is:singular
-SFX  V4 ѧтъ       иши    ѧтъ       is:singular
-SFX  V4 тъ         мъ   .       is:plural 
-SFX  V4 тъ         те    .       is:plural 
-SFX  V4 итъ      ѧтъ    .      is:plural 
+SFX  V4 титъ       щѫ     [т]итъ     is:singular
+SFX  V4 ѣтитъ   ѣщѫ     [т]итъ     is:singular
+SFX  V4 ситъ       шѫ     [с]итъ     is:singular
+SFX  V4 хитъ       шѫ     [х]итъ     is:singular
+SFX  V4 китъ        чѫ      [к]итъ     is:singular
+SFX  V4 цитъ       чѫ      [ц]итъ     is:singular
+SFX  V4 итъ           ѫ      [чжшщ]итъ     is:singular
+SFX  V4 зитъ       жѫ      [з]итъ     is:singular
+SFX  V4 гитъ       жѫ      [г]итъ     is:singular
+SFX  V4 итъ          ѭ      [аоуеѣѫнлр]итъ     is:singular
+SFX  V4 итъ        лѭ      [бпвм]итъ     is:singular
+SFX  V4 тъ          ши      [ѥи]тъ       is:singular
+SFX  V4 ѧтъ       иши      ѧтъ       is:singular
+SFX  V4 тъ           мъ   .       is:plural 
+SFX  V4 тъ           те    .       is:plural 
+SFX  V4 итъ        ѧтъ    .      is:plural 
 
 # 5 спряжение, сег време
 SFX  V5 Y 9
@@ -844,17 +844,17 @@ SFX  V8   гъ    жета   гъ   is:double
 
 #  мин. св. време, 1 сигматичен аорист,  бихъ, рѣхъ
 SFX  V9  Y 11
-SFX  V9  хъ   0      [иукрꙑѣ]хъ  is:singular
-SFX  V9  мь   0      [иукрꙑѣ]мь  is:singular
-SFX  V9  хъ   тъ      [ѧѩ]хъ  is:singular
-SFX  V9  хъ   че      [тл][ѣаꙗ]хъ  is:singular
-SFX  V9  имь   ѫ      имь  is:singular
-SFX  V9  ъ     омъ  ъ  is:plural
-SFX  V9  хъ   сте   .  is:plural
-SFX  V9  хъ   шѧ   хъ  is:plural
-SFX  V9  ъ     овѣ  ъ  is:double
-SFX  V9  хъ   ста   .  is:double
-SFX  V9  мь   вѣ      [иукрꙑѣ]мь  is:double
+SFX  V9  хъ     0       [иукрꙑѣ]хъ  is:singular
+SFX  V9  мь     0       [иукрꙑѣ]мь  is:singular
+SFX  V9  хъ     тъ      [ѧѩ]хъ  is:singular
+SFX  V9  хъ     че      [тл][ѣаꙗ]хъ  is:singular
+SFX  V9  имь   ѫ       имь  is:singular
+SFX  V9  ъ       омъ   ъ  is:plural
+SFX  V9  хъ     сте    .  is:plural
+SFX  V9  хъ     шѧ    хъ  is:plural
+SFX  V9  ъ       овѣ   ъ  is:double
+SFX  V9  хъ     ста    .  is:double
+SFX  V9  мь     вѣ     [иукрꙑѣ]мь  is:double
 
 # мин. св. време,  1 сигматичен аорист,  басъ,
 SFX  VA  Y 13
@@ -887,17 +887,17 @@ SFX VC  0          щю      .       is:singular  Д
 SFX VC  0          щь       .       is:singular  В
 SFX VC  0          щемь   .       is:singular  Т
 SFX VC  0          щи       .     is:singular  М
-SFX VC  0          ще      .      is:plural   И,В
-SFX VC  0          щь      .      is:plural  Р
+SFX VC  0          ще       .      is:plural   И,В
+SFX VC  0          щь       .      is:plural  Р
 SFX VC  0          щемъ   .      is:plural  Д
 SFX VC  0          щи       .     is:plural  Т
 SFX VC  0          щихъ   .      is:plural  М
 SFX VC  0          щема   .      is:double   Д, Т
 SFX VC  0          щи       .       is:singular  И, Д, М
 SFX VC  0          щѧ       .       is:singular  Р
-SFX VC  0          щеѭ   .       is:singular  Т
-SFX VC  0          щѧ      .      is:plural   И,В
-SFX VC  0          щь      .      is:plural  Р
+SFX VC  0          щеѭ    .       is:singular  Т
+SFX VC  0          щѧ       .      is:plural   И,В
+SFX VC  0          щь       .      is:plural  Р
 SFX VC  0          щамъ   .      is:plural  Д
 SFX VC  0          щами   .     is:plural  Т
 SFX VC  0          щахъ   .      is:plural  М
@@ -910,17 +910,17 @@ SFX VD  ѧ          ѭщю      .       is:singular  Д
 SFX VD  ѧ          ѭщь       .       is:singular  В
 SFX VD  ѧ          ѭщемь   .       is:singular  Т
 SFX VD  ѧ          ѭщи       .       is:singular  М
-SFX VD  ѧ          ѭще      .        is:plural   И,В
-SFX VD  ѧ          ѭщь      .        is:plural  Р
+SFX VD  ѧ          ѭще       .        is:plural   И,В
+SFX VD  ѧ          ѭщь       .        is:plural  Р
 SFX VD  ѧ          ѭщемъ   .       is:plural  Д
 SFX VD  ѧ          ѭщи       .       is:plural  Т
 SFX VD  ѧ          ѭщихъ   .       is:plural  М
 SFX VD  ѧ          ѭщема   .       is:double   Д, Т
 SFX VD  ѧ          ѭщи       .       is:singular  И, Д, М
 SFX VD  ѧ          ѭщѧ       .       is:singular  Р
-SFX VD  ѧ          ѭщеѭ   .        is:singular  Т
-SFX VD  ѧ          ѭщѧ      .        is:plural   И,В
-SFX VD  ѧ          ѭщь      .        is:plural  Р
+SFX VD  ѧ          ѭщеѭ    .        is:singular  Т
+SFX VD  ѧ          ѭщѧ       .        is:plural   И,В
+SFX VD  ѧ          ѭщь       .        is:plural  Р
 SFX VD  ѧ          ѭщамъ   .       is:plural  Д
 SFX VD  ѧ          ѭщами   .       is:plural  Т
 SFX VD  ѧ          ѭщахъ   .       is:plural  М
@@ -935,8 +935,8 @@ SFX VE  0          шю      .       is:singular  Д
 SFX VE  0          шь       .       is:singular  В
 SFX VE  0          шемь   .       is:singular  Т
 SFX VE  0          ши       .       is:singular  М
-SFX VE  0          ше      .        is:plural   И
-SFX VE  0          шь      .        is:plural  Р
+SFX VE  0          ше       .        is:plural   И
+SFX VE  0          шь       .        is:plural  Р
 SFX VE  0          шемъ   .       is:plural  Д
 SFX VE  0          шѧ       .       is:plural  В
 SFX VE  0          ши       .       is:plural  Т
@@ -945,9 +945,9 @@ SFX VE  0          шема   .       is:double   Д, Т
 SFX VE  0          ши       .       is:singular  И, Д
 SFX VE  0          шѧ       .       is:singular  Р
 SFX VE  0          шѫ       .       is:singular  В
-SFX VE  0          шеѭ   .        is:singular  Т
-SFX VE  0          шѧ      .        is:plural   И,В
-SFX VE  0          шь      .        is:plural  Р
+SFX VE  0          шеѭ    .        is:singular  Т
+SFX VE  0          шѧ       .        is:plural   И,В
+SFX VE  0          шь       .        is:plural  Р
 SFX VE  0          шамъ   .       is:plural  Д
 SFX VE  0          шами   .       is:plural  Т
 SFX VE  0          шахъ   .       is:plural  М
@@ -956,14 +956,14 @@ SFX VE  0          шама   .       is:double   Д, Т
 # повелително наклонение
 SFX VF  Y  4
 SFX VF  и    ѣмъ  . is:plural 
-SFX VF  и    ѣте  . is:plural 
+SFX VF  и    ѣте   . is:plural 
 SFX VF  и    ѣвѣ  . is:double 
-SFX VF  и    ѣта  . is:double 
+SFX VF  и    ѣта   . is:double 
 
 # повелително наклонение
 SFX VG  Y  5
 SFX VG  0    мъ . is:plural 
-SFX VG  0    те . is:plural 
+SFX VG  0    те  . is:plural 
 SFX VG  0    вѣ  . is:double 
 SFX VG  0    та  . is:double 
 SFX VG  ди  ждь ди  is:singular 
