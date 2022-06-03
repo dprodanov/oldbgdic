@@ -62,10 +62,12 @@ PFX SP 0  прѣ
 PFX SP 0  про
 PFX SP 0  при [бвгдлмнжраоуиеѫꙗѥѣѫѧ]
 
-PFX SQ Y 6
-PFX SQ 0  въс [кптфхцчшщ] 
+PFX SQ Y 8
+PFX SQ 0  въс [кптфхшщ] 
 PFX SQ 0  въз [бвгдлмнжраоуиеѫꙗѥѣѫѧ]
-PFX SQ 0  въ [зс] 
+PFX SQ 0  въ [зсцч] 
+PFX SQ 0  вь [лм] 
+PFX SQ 0  на .
 PFX SQ 0  ис [кптфхцчшщ] 
 PFX SQ 0  из [бвгдлмнжраоуиеѫꙗѥѣѫѧ]
 PFX SQ 0  и [зс] 
@@ -552,7 +554,7 @@ SFX T1  ꙑ          ъвамъ    ꙑ        is:plural  Д
 SFX T1  ꙑ          ъвами    ꙑ        is:plural  Т
 SFX T1  ꙑ          ъвахъ    ꙑ        is:plural  М
 
-# ж.р. същ. спряжение на  кръвь
+# ж.р. същ. спряжение на  кръвь +S6
 SFX T2 Y  8	    #1 И,В, З
 SFX T2  ь           и        ь        is:singular  Р,  Д is:double И
 SFX T2  ь           ьѭ     ь        is:singular  Т
@@ -628,7 +630,6 @@ SFX NS  о           есъ       о      is:plural  Р
 SFX NS  о           есемъ   [^чш]о      is:plural  Д
 SFX NS  о           есꙑ      о      is:plural  Т
 SFX NS  о           есехъ    [^чш]о      is:plural  М
-
 
 
 # местоимения
@@ -847,7 +848,7 @@ SFX  V9  Y 11
 SFX  V9  хъ     0       [иукрꙑѣ]хъ  is:singular
 SFX  V9  мь     0       [иукрꙑѣ]мь  is:singular
 SFX  V9  хъ     тъ      [ѧѩ]хъ  is:singular
-SFX  V9  хъ     че      [тл][ѣаꙗ]хъ  is:singular
+SFX  V9  хъ     че     [^о][тл][ѣаꙗ]хъ  is:singular
 SFX  V9  имь   ѫ       имь  is:singular
 SFX  V9  ъ       омъ   ъ  is:plural
 SFX  V9  хъ     сте    .  is:plural
@@ -927,7 +928,7 @@ SFX VD  ѧ          ѭщахъ   .       is:plural  М
 SFX VD  ѧ          ѭщама   .       is:double   Д, Т
 
 
-# минало деятелно причастие, несꙑ - 1,2, 4 спряжение
+# минало деятелно причастие, несꙑ - 1, 2, 4 спряжение
 SFX VE Y  23	   #1 
 SFX VE  ъ         ъ       [ъ]       is:singular  И
 SFX VE  0          ша       .       is:singular  Р
@@ -967,4 +968,11 @@ SFX VG  0    те  . is:plural
 SFX VG  0    вѣ  . is:double 
 SFX VG  0    та  . is:double 
 SFX VG  ди  ждь ди  is:singular 
+
+# супин
+SFX VH  Y  2
+SFX VH  ти  тъ ти
+SFX VH  щи щь щи
+
+
 

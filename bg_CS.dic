@@ -1,9 +1,10 @@
-﻿1226
+﻿1250
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
 ꙗгода/Z0S5	po:noun
-ꙗдетъ/V1	po:verb
+ꙗдети/V6	po:verbinf
+ꙗдетъ/V1A1SQ	po:verb
 ꙗди/KKVG	po:verbimp
 ꙗдъ/G7	po:noun
 ꙗдѣти/V6	po:verb
@@ -90,8 +91,11 @@
 бѣхъ/V9	po:verbaor
 бѫдетъ/V1A1	po:verb
 бѫди/VF	po:verbimp
+вꙑꙗ/Z3	po:noun
 вꙑ
 вꙑнѫ	po:adverb
+вꙑсокъ/B5	po:adj
+вꙑсота/Z0S5	po:noun
 вꙑспрь	po:adverb
 вꙑшьи/BA	po:adj
 валити/V6SQ	po:verbinf
@@ -122,7 +126,7 @@
 верига/Z0S5	po:noun
 весело	po:adverb
 весельѥ/S1	po:noun
-вести/V6SR	po:verbinf
+вести/VHV6SR	po:verbinf
 ветъш/KKW3	po:stem
 виденъ/VB	po:adj
 видимъ/VB	po:passive
@@ -174,9 +178,11 @@
 врати/V6	po:verbinf
 вратити/SR	po:verbinf
 вратитъ/SRV4	po:verb
+вратитъ/V4A1	po:verb
 врахъ/V9	po:verb
 врачь/G4S4	po:noun
 врачьба/Z0S5	po:noun
+вращати/V6	po:verbinf
 връхъ/G7	po:noun
 врьбьница/Z1	po:noun
 врьжетъ/V1A1SQ	po:verb
@@ -187,7 +193,7 @@
 врѣменьно/SE
 врѣмѧ/T4	po:noun
 врѣсти/SRV6	po:verbinf
-врѣщи/V6SQ	po:verbinf
+врѣщи/VHV6SQ	po:verbinf
 врѣщти/SRV6	po:verbinf
 въ
 въврьгъ/V8	po:verb
@@ -214,6 +220,7 @@
 въскрьснѫти/V6	po:verbinf
 въспѣв/KKW4	po:stem
 въспѧть	po:adverb
+въчера	po:adverb
 въѥевода/Z0S5	po:noun
 высокъ/B5	po:adj
 вьдова/Z0S5	po:noun
@@ -226,6 +233,7 @@
 вьсьде	po:adverb
 вьсѣго/ZT
 вьсѫдѣ	po:adverb
+вьчера	po:adverb
 вѣꙗти/V6SQSR	po:verbinf
 вѣди/KKVG	po:verbimp
 вѣдро/S0	po:noun
@@ -259,7 +267,7 @@
 гашетъ/V3A1	po:verb
 глава/Z0S5	po:noun
 глаголан/KKB2	po:noun
-глаголати/V6SQ	po:verbinf
+глаголати/VHV6SQ	po:verbinf
 глаголетъ/V3A1SQ	po:verb
 глаголѥмъ/VB	po:adv
 гладъ/G0S3	po:noun
@@ -311,7 +319,7 @@
 грѣшитъ/V4A1	po:verb
 грѣшникъ/G1S3	po:noun
 грѧдетъ/V3A1	po:verbinf
-грѧсти/V6	po:verbinf
+грѧсти/VHV6	po:verbinf
 дeнь/T3	po:noun
 даꙗти/V6SQSP	po:verbinf
 да
@@ -331,6 +339,7 @@
 двигнетъ/V1A1	po:verb
 двигни/VF	po:verbimp
 двигномъ/VB	po:passive
+двигнѫти/VHV6	po:verbinf
 двигнѫхъ/V9	po:verb
 двигъ/V8	po:verb
 двнгномъ/VB	po:adv
@@ -340,6 +349,7 @@
 добръ/B5	po:adj
 добрѣ	po:adverb
 добрѣи/BB	po:adj
+довольнъ/B5	po:adj
 долу	po:adverb
 долѣ	po:adverb
 домъ/G7	po:noun
@@ -358,6 +368,7 @@
 дъметъ/V1A1	po:verb
 дъска/Z1S5	po:noun
 дъщи/T5	po:noun
+дьнесь	po:adverb
 дьнь/T3	po:noun
 дьрати/V6	po:verbinf
 дѣва/Z0S5	po:noun
@@ -403,7 +414,7 @@
 жениховъ/B5	po:adj
 жестокъ/B5	po:adj
 жестоцѣ	po:adverb
-жещи/V6	po:verbinf
+жещи/VHV6	po:verbinf
 животъ/G0	po:noun
 жидетъ/V1A1	po:verb
 жидость/G5	po:noun
@@ -427,6 +438,7 @@
 жѧти/V6	po:verb
 зꙑваетъ/V3SQ	po:verb
 зꙑвати/V6SQ	po:verbinf
+за
 забꙑваетъ/V3A1	po:verb
 завой/G3	po:noun
 зади	po:adverb
@@ -465,7 +477,7 @@
 зодиꙗ/Z5	po:noun
 зороваетъ/V3A1SR	po:verb
 зоровати/V6SR	po:verbinf
-зъвати/SQV6	po:verbinf
+зъвати/SQVHV6	po:verbinf
 зъветъ/SQV1A1	po:verb
 зъло/S0	po:noun
 зълодѣй/G3	po:noun
@@ -491,6 +503,7 @@
 имен/KKW5	po:stem
 иметъ/V1A1	po:verb
 имь/ZE
+имѣти/V6	po:verbinf
 имѧ/T4	po:noun
 имѫ/KKVC	po:adv
 иний/G3	po:noun
@@ -501,7 +514,7 @@
 исплънь	po:adverb
 испьрѧ/Z4	po:noun
 исто/NS	po:noun
-ити/V6SR	po:verbinf
+ити/VHV6SR	po:verbinf
 ищетъ/V1A1SRSQ	po:verb
 ищи/VG	po:verbimp
 кꙑпитъ/V4A1SQ	po:verb
@@ -572,6 +585,9 @@
 кънѧзь/G4S4	po:noun
 кѧжетъ/V3A1	po:verb
 кѧзати/V6	po:verb
+лагати/V6SRSQ	po:verbinf
+лагахъ/V9SRSQ	po:verbaor
+лагаѥтъ/V3A1SRSQ	po:verb
 ладиꙗ/Z5	po:noun
 лакътъ/G0	po:noun
 лакъть/G5G6S6	po:noun
@@ -579,8 +595,11 @@
 лани	po:adverb
 ласка/Z0S5	po:noun
 ледъ/G7	po:noun
+лежати/V6	po:verbinf
+лежитъ/V4A1	po:verb
 лесть/G6S6	po:noun
 летитъ/V4A1	po:verb
+летъ/SQV3	po:verb
 лешти/V6	po:verbinf
 ли
 листьѥ/S1	po:noun
@@ -588,8 +607,8 @@
 ловитъ/V4A1	po:verb
 ловьць/G2S4	po:noun
 ложе/S2	po:noun
-ложити/V6	po:verbinf
-ложитъ/V4A1	po:verb
+ложити/V6SPSQ	po:verbinf
+ложитъ/V4A1PSQ	po:verb
 локꙑ/T1	po:noun
 локъвꙑ/T1	po:noun
 ломити/V6	po:verbinf
@@ -605,10 +624,13 @@
 люто/NS	po:noun
 люущьи/BA	po:adj
 лѣзетъ/V1A1SR	po:verb
+лѣпитъ/V4A1SP	po:verb
 лѣпота/Z0S5	po:noun
 лѣсти/V6SR	po:verbinf
+лѣти/VHV6SQSR	po:verbinf
 лѣто/S0	po:noun
 лѣтѣ	po:adverb
+лѣѥтъ/SQV3	po:verb
 лѧжетъ/V1A1	po:verb
 лѧчетъ/V1A1	po:verb
 лѧшти/V6	po:verbinf
@@ -707,8 +729,6 @@
 нариц/KKW4	po:stem
 наслѣд/KKW5	po:stem
 насъ/LT
-начьнетъ/V3A1	po:verb
-начѧхъ/V9	po:verb
 нашаетъ/V3SQ	po:verb
 нашати/V6SQ	po:verbinf
 нашего/ZT
@@ -722,7 +742,7 @@
 несъ/VE	po:adv
 несѫ/KKVC	po:adv
 нива/Z0S5	po:noun
-нигъда
+нигъда	po:adverb
 никнетъ/V1A1SQ	po:verb
 никнѫти/V6SQ	po:verbinf
 нисти/V6SQ	po:verbinf
@@ -784,7 +804,11 @@
 очо/KKNS	po:noun
 падетъ/V1A1	po:verb
 падъ/V8	po:verb
+пакꙑ	po:adverb
+памѧть/T2S6	po:noun
+памѧтьѥ/S1	po:noun
 пара/Z0S5	po:noun
+пастꙑрь/G2S4	po:noun
 паства/Z0S5	po:noun
 пасти/V6	po:verbinf
 пасха/Z0S5	po:noun
@@ -796,7 +820,7 @@
 печетъ/V1A1	po:verb
 пешь/G5
 пещера/Z0S5	po:noun
-пещи/V6	po:verbinf
+пещи/VHV6	po:verbinf
 пиво/S0	po:noun
 пила/Z0S5	po:noun
 пира/Z0S5	po:noun
@@ -845,6 +869,8 @@
 поклонитъ/V4A1	po:verb
 покровъ/G0S3	po:noun
 пола/Z0S5	po:noun
+положити/V6	po:verbinf
+положитъ/V4A1	po:verb
 полъ/G7	po:noun
 польꙃа/Z1S5	po:noun
 польза/Z0S5	po:noun
@@ -890,7 +916,7 @@
 пѣснь/G6S6	po:noun
 пѣти/V6SQ	po:verbinf
 пѧсъ/VA	po:verbaor
-пѧти/V6	po:verbinf
+пѧти/VHV6	po:verbinf
 пѧть/G5	po:noun
 пѫто/S0S3	po:noun
 пѫть/G6S6	po:noun
@@ -1004,6 +1030,7 @@
 станетъ/V1A1	po:verb
 стар/KKW3	po:stem
 старъ/B5	po:adj
+стати/VHV6SQ	po:verbinf
 степень/T3	po:noun
 страдати/V6	po:verb
 стража/Z1S5	po:noun
@@ -1017,6 +1044,7 @@
 стрѣла/Z0S5	po:noun
 стрѣщи/V6	po:verbinf
 стьза/Z1S5	po:noun
+стѫпити/VHV6SR	po:verbinf
 сугубь	po:adverb
 сульи/BA	po:adj
 сухъ/B5	po:adj
@@ -1031,8 +1059,10 @@
 съгрѣв/KKW4	po:stem
 съдравиѥ/S1	po:noun
 съдравьѥ/S1	po:noun
+сълати/VHV6SR	po:verbinf
 съмотрити/V6	po:verbinf
 съмотритъ/V4	po:verb
+съпаства/Z0S5	po:noun
 съхнети/V6	po:verbinf
 съхнетъ/V1A1	po:verb
 сьде	po:adverb
@@ -1131,10 +1161,12 @@
 хвалнмъ/VB	po:adv
 хваль/VE	po:adv
 хвалѧ/VC	po:adv
-ходити/SRSQV6	po:verbinf
+ходити/SRSQVHV6	po:verbinf
 ходотай/G3	po:noun
 хорѫгꙑ/T1	po:noun
 хоть/G6S6	po:noun
+хотѣти/V6	po:verbinf
+хотѣхъ/V9	po:verbaor
 хощети/V6	po:verb
 хощетъ/V1A1	po:verb
 худъ/B5	po:adj
@@ -1157,6 +1189,8 @@
 цѣловати/V6	po:verbinf
 цѣлѣти/V6SQ	po:verbinf
 цѣлѣѥтъ/V3A1SQ	po:verb
+цѣсарити/V6SQ	po:verbinf
+цѣсаритъ/V4SQ	po:verbinf
 цѣща	po:adverb
 чабьръ/G0S3	po:noun
 чаша/Z3	po:noun
@@ -1164,7 +1198,7 @@
 чезнѫти/V6	po:verbinf
 чиего/ZT
 чинъ/G7	po:noun
-чисти/V6	po:verbinf
+чисти/V6SQ	po:verbinf
 чисъ/VA	po:verb
 чловѣчь/B4	po:adj
 чрьпетъ/V1A1	po:verb
@@ -1174,12 +1208,13 @@
 чрѣти/V6	po:verbinf
 чудо/NS	po:noun
 чьловѣкъ/G1S3	po:noun
-чьнетъ/V1A1	po:verb
+чьнетъ/V1A1SQ	po:verb
 чьсть/G5	po:noun
-чьтетъ/V1A1	po:verb
+чьтетъ/V1A1SQ	po:verb
 чѧдо/S0	po:noun
 чѧсть/G5	po:noun
-чѧти/V6	po:verbinf
+чѧти/V6SQ	po:verbinf
+чѧхъ/V9SQ	po:verb
 ширьи/BA	po:adj
 шиѥтъ/V3A1	po:verb
 шуй/B4	po:adj
@@ -1191,10 +1226,10 @@
 ѥлень/T3	po:noun
 ѥстъ/V5A2	po:verb
 ѥще	po:adverb
-ѧзꙑчьникъ/G1S3	po:noun
 ѧдро	po:adverb
 ѧдѣ	po:adverb
 ѧзꙑкъ/G1S4	po:noun
+ѧзꙑчьникъ/G1S3	po:noun
 ѧтрꙑ/T1	po:noun
 ѧтро/S0	po:noun
 ѧчьмикъ/G1	po:noun
@@ -1214,14 +1249,3 @@
 ѫзъко	po:adverb
 ѫтрь	po:adverb
 ѭ
-положитъ/V4A1	po:verb
-положити/V6	po:verbinf
-лѣпитъ/V4A1SP	po:verb
-лежитъ/V4A1	po:verb
-лежати/V6	po:verbinf
-вратитъ/V4A1	po:verb
-вращати/V6	po:verbinf
-имѣти/V6	po:verbinf
-хотѣти/V6	po:verbinf
-начѧти/V6	po:verbinf
-хотѣхъ/V9	po:verbaor
