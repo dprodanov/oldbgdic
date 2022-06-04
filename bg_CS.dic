@@ -1,4 +1,4 @@
-﻿1250
+﻿1271
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -106,9 +106,7 @@
 варъ/G0S3	po:noun
 васнь	po:adverb
 васъ/LT
-ведетъ/V1A1	po:verb
 ведро/S0	po:noun
-ведъ/V8	po:verb
 везетъ/V1A1SR	po:verb
 великъ/B5	po:adj
 величити/V6	po:verbinf
@@ -235,12 +233,14 @@
 вьсѫдѣ	po:adverb
 вьчера	po:adverb
 вѣꙗти/V6SQSR	po:verbinf
-вѣди/KKVG	po:verbimp
+вѣдетъ/V1A1SR	po:verb
+вѣди/KKVGSR	po:verbimp
 вѣдро/S0	po:noun
+вѣдъ/V8SR	po:verb
 вѣдь/G6S6	po:noun
-вѣдѣти/V6	po:verbinf
-вѣдѣхъ/V9	po:verbaor
-вѣдѫ/KKVC	po:adv
+вѣдѣти/VHV6SR	po:verbinf
+вѣдѣхъ/V9SR	po:verbaor
+вѣдѫ/KKVCSR	po:adv
 вѣетъ/V3SQSR	po:verb
 вѣко/S0	po:noun
 вѣлитъ/V4A1	po:verbinf
@@ -265,6 +265,8 @@
 гаснети/SUSRV6	po:verbinf
 гаснетъ/SUV1A1	po:verb
 гашетъ/V3A1	po:verb
+гвоздь/G5	po:noun
+гвоздьи/G3	po:noun
 глава/Z0S5	po:noun
 глаголан/KKB2	po:noun
 глаголати/VHV6SQ	po:verbinf
@@ -608,7 +610,7 @@
 ловьць/G2S4	po:noun
 ложе/S2	po:noun
 ложити/V6SPSQ	po:verbinf
-ложитъ/V4A1PSQ	po:verb
+ложитъ/V4A1SPSQ	po:verb
 локꙑ/T1	po:noun
 локъвꙑ/T1	po:noun
 ломити/V6	po:verbinf
@@ -773,7 +775,7 @@
 оврѧщъ/V8	po:verb
 овчьий/B4	po:adj
 овъ/TT
-овьца/Z1S5	po:noun
+овьца/Z4S5	po:noun
 овьчѧ/NT	po:noun
 огнь/G5	po:noun
 ограда/Z0S5	po:noun
@@ -1249,3 +1251,22 @@
 ѫзъко	po:adverb
 ѫтрь	po:adverb
 ѭ
+ложихъ/V9SPSQ	po:verbaor
+овощьнъ/B5	po:adj
+овъторитъ/V4	po:verb
+овъторити/V6	po:verbinf
+овьде	po:adverb
+вѣдѫ/KKVC	po:adv
+сѫ/KKVC	po:adv
+ꙗдѫ/KKVC	po:adv
+дадѫ/KKVC	po:adv
+двигнѫ/VC	po:adv
+съланъ/VBSR
+несъщь/VI	po:gerund
+боса/B5	po:adj
+нищь/B4	po:adj
+несъща
+несъщо/B9
+хвалѧщь/VI	po:gerund
+вьсѣкъ/B5	po:adj
+вьсего/ZT
