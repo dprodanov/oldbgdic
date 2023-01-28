@@ -1,4 +1,4 @@
-﻿1271
+﻿1279
 ꙃело	po:adverb
 ꙗ/ZE	po:pronoun
 ꙗвѣ	po:adverb
@@ -14,7 +14,7 @@
 ꙗстъ/V5A1	po:verb
 ꙗсъ/VASPSQ	po:verb
 а
-абѥ
+абѥ po:adv
 авва/Z0S5	po:noun
 агнець	po:noun
 агнѧ/NT	po:noun
@@ -60,7 +60,7 @@
 божий/B4	po:adj
 божь/KKB0	po:stem
 бой/G3	po:noun
-боль/G5	po:noun
+боль/G6	po:noun
 больи/BA	po:adj
 больнъ/B5	po:adj
 боретъ/V3A1	po:verb
@@ -307,7 +307,7 @@
 господь/G6	po:noun
 господьнь/B4	po:adj
 гоститъ/V4A1	po:verb
-гость/G5	po:noun
+гость/G6Я6	po:noun is:m
 градъ/G0S3	po:noun
 гражданинъ/G0	po:noun
 гребетъ/V1A1SQ	po:verb
@@ -315,7 +315,7 @@
 грива/Z0S5	po:noun
 гръло/S0S3	po:noun
 гръмъ/G0S3	po:noun
-грътань/G5	po:noun
+грътань/G5S6	po:noun
 грѣсъ/VA	po:verb
 грѣхъ/G1S3	po:noun
 грѣшитъ/V4A1	po:verb
@@ -450,7 +450,7 @@
 зажещи/V6	po:verb
 законьно/SE	po:adverb
 зане/ZE
-заповѣдь/G6S6	po:noun
+заповѣдь/G5S6	po:noun
 запрѣщаетъ/V3A1	po:verb
 запрѣщитъ/V4A1	po:verb
 звѣрь/G6S6	po:noun
@@ -559,7 +559,7 @@
 коснетъ/V1A1	po:verb
 коснѫти/V6	po:verbinf
 коснѫхъ/V9	po:verb
-кость/G6S6	po:noun
+кость/G5S6	po:noun is:f
 кошь/G4S4	po:noun
 крꙑваетъ/V3A1SR	po:verb
 крꙑвати/V6SR	po:verbinf
@@ -703,7 +703,7 @@
 мьньи/BA	po:adj
 мьнѣ
 мьсть/G5	po:noun
-мѣдь/G6S6
+мѣдь/G5S6	po:noun is:f
 мѣдѣнъ/B5	po:adj
 мѣнетъ/SRV1A1	po:verb
 мѣнѫти/SRV6	po:verbinf
@@ -758,7 +758,7 @@
 ножь/G2S4	po:noun
 носити/V6	po:verbinf
 носитъ/V4A1	po:verb
-нощь/G6S6	po:noun
+нощь/G6S6	po:noun is:f
 нужда/Z1S5	po:noun
 ньзетъ/V3A1SQ	po:verb
 нѣмъ/VB	po:adv
@@ -1241,7 +1241,7 @@
 ѩти/V6	po:verbinf
 ѩхъ/V9	po:verb
 ѫ/ZE
-ѫатрь	po:adverb
+ѫтрь	po:adverb
 ѫгълъ/G0	po:noun
 ѫда/Z0	po:noun
 ѫдоль/G5	po:noun
@@ -1270,3 +1270,11 @@
 хвалѧщь/VI	po:gerund
 вьсѣкъ/B5	po:adj
 вьсего/ZT
+перьнатъ/B5	po:adj
+брѣгъ/G0S3	po:noun
+вѣтръ/G0S3	po:noun
+пажить/G6	po:noun is:f
+палeжь/G6	po:noun is:f
+пальць/G6	po:noun is:f
+печаль/G5	po:noun is:f
+печать/G6	po:noun is:f
